@@ -32,7 +32,7 @@ These files contain no post text, transcripts, usernames, or model-written summa
 
 - Raw Reddit text and YouTube transcripts.
 - The master tables the analysis scripts read (`analysis/{game}/data/*_master.parquet`), because they contain that text. The scripts therefore do not run from this repository alone: rebuild the masters with steps 1–5b, or adapt `analysis/shared/loaders.py` to read the score files. Script 16 (author concentration) also needs usernames, which are not released.
-- Daily player-count series.
+- Daily player-count series. They come from SteamDB (all five games) and popularity.report (Destiny 2, all platforms) and should be obtained from those sources.
 
 ## Environment
 

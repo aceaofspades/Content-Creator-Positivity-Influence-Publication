@@ -58,11 +58,11 @@ We required public daily player counts and a mature, opinion-forward creator eco
 
 **Reddit.** Submissions and comments from each game's main subreddit(s) came from per-subreddit Pushshift dumps (Baumgartner et al., 2020) distributed through Academic Torrents. Text was filtered for length and game-relevant keywords, and a random 20% of submissions was processed. Comments are the top-level replies to sampled submissions.
 
-**Player counts.** For Warframe, Counter-Strike, Dota 2, and Dead by Daylight we use daily Steam player counts. For Destiny 2 we use an all-platform series of daily unique players derived from public post-game activity reports. Destiny 2 moved to Steam, went free-to-play, and added cross-save on 2019-10-01; the all-platform series spans that date without a measurement break, but the player population changes there. Destiny 2's and Dead by Daylight's series begin at launch, so Destiny 1-era and pre-release discussion on Destiny 2's subreddit is excluded. A per-game release calendar supports release-aware analyses.
+**Player counts.** For Warframe, Counter-Strike, Dota 2, and Dead by Daylight we use daily Steam player counts from SteamDB. For Destiny 2 we use an all-platform series of daily unique players from popularity.report, derived from public post-game activity reports; outside release weeks, Destiny 2's SteamDB counts track it closely. Destiny 2 moved to Steam, went free-to-play, and added cross-save on 2019-10-01; the all-platform series spans that date without a measurement break, but the player population changes there. Destiny 2's and Dead by Daylight's series begin at launch, so Destiny 1-era and pre-release discussion on Destiny 2's subreddit is excluded. A per-game release calendar supports release-aware analyses.
 
 ### 4.2 LLM pipeline
 
-All text was processed by Qwen3-30B-A3B-Instruct-2507 (Yang et al., 2025) in a 4-bit AWQ quantization (`cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit`), served with vLLM (Kwon et al., 2023) at temperature 0.3. A first pass detects which of a game-specific set of topics a text discusses. A second pass extracts sentiment for the detected topics alongside core fields: overall sentiment toward the game's current state, nine sentiment dimensions, future outlook, emotional tone, three creator engagement fields, the game the text is about, and the model's confidence. Comments use a lighter single-pass prompt that yields an overall score. Each game has its own prompt and topic vocabulary (233 topics in 11 categories across the five games).
+**[Models: confirm the model and vLLM version for each game; Warframe may have been scored with a different model.]** All text was processed by Qwen3-30B-A3B-Instruct-2507 (Yang et al., 2025) in a 4-bit AWQ quantization (`cyankiwi/Qwen3-30B-A3B-Instruct-2507-AWQ-4bit`), served with vLLM (Kwon et al., 2023) at temperature 0.3. A first pass detects which of a game-specific set of topics a text discusses. A second pass extracts sentiment for the detected topics alongside core fields: overall sentiment toward the game's current state, nine sentiment dimensions, future outlook, emotional tone, three creator engagement fields, the game the text is about, and the model's confidence. Comments use a lighter single-pass prompt that yields an overall score. Each game has its own prompt and topic vocabulary (233 topics in 11 categories across the five games).
 
 Sentiment is scored from −2 to +2. "Unclear" is treated as missing, never as 0. Topic fields are populated only when a topic is detected, so a missing topic field means "not discussed", not "neutral". For all three engagement fields, higher is healthier (*burned out* is coded so that higher means less burned out).
 
@@ -295,7 +295,7 @@ The first priority is human validation of the Warframe extraction, since the one
 
 ## 10. Data and Code Availability
 
-Analysis code, prompts for all five games, and all aggregated output tables, including the full robustness batteries summarized here, will be released in a public repository on publication **[URL]**. The analysis plan is included. We share item identifiers and derived per-item scores rather than raw text, and the validation set with both sets of labels.
+Analysis code, prompts for all five games, and all aggregated output tables, including the full robustness batteries summarized here, are available at https://github.com/aceaofspades/Content-Creator-Positivity-Influence-Publication. The analysis plan is included. We share item identifiers and derived per-item scores rather than raw text, and the validation set with both sets of labels.
 
 ## 11. Ethical Considerations
 
@@ -303,36 +303,36 @@ All data are public: per-subreddit Pushshift Reddit dumps, public YouTube videos
 
 ## References
 
-- Bakshy, E., Hofman, J. M., Mason, W. A., & Watts, D. J. (2011). Everyone's an influencer: Quantifying influence on Twitter. *WSDM '11*.
-- Baumgartner, J., Zannettou, S., Keegan, B., Squire, M., & Blackburn, J. (2020). The Pushshift Reddit dataset. *ICWSM '20*.
+- Bakshy, E., Hofman, J. M., Mason, W. A., & Watts, D. J. (2011). Everyone's an influencer: Quantifying influence on Twitter. *WSDM '11*, 65–74.
+- Baumgartner, J., Zannettou, S., Keegan, B., Squire, M., & Blackburn, J. (2020). The Pushshift Reddit dataset. *ICWSM '20*, 830–839.
 - Behaviour Interactive. (2019). [2019] Fog Whisperers | Program launch [Forum announcement]. Originally https://forum.deadbydaylight.com/en/discussion/49385/fog-whisperers-program-launch (no longer online); archived copy at https://devtrackers.gg/deadbydaylight/p/a74aa3ea-fog-whisperers-program-launch (accessed 2026-10-25).
-- Cha, M., Haddadi, H., Benevenuto, F., & Gummadi, K. P. (2010). Measuring user influence in Twitter: The million follower fallacy. *ICWSM '10*.
+- Cha, M., Haddadi, H., Benevenuto, F., & Gummadi, K. P. (2010). Measuring user influence in Twitter: The million follower fallacy. *ICWSM '10*, 10–17.
 - Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Lawrence Erlbaum.
 - Consalvo, M. (2007). *Cheating: Gaining Advantage in Videogames*. MIT Press.
 - Dickey, D. A., & Fuller, W. A. (1979). Distribution of the estimators for autoregressive time series with a unit root. *Journal of the American Statistical Association, 74*(366a), 427–431.
 - Digital Extremes. (n.d.). Warframe Creator Program. https://www.warframe.com/en/community/creators (accessed 2026-10-25).
 - Dubois, E., & Gaffney, D. (2014). The multiple facets of influence: Identifying political influentials and opinion leaders on Twitter. *American Behavioral Scientist, 58*(10), 1260–1277.
 - Funder, D. C., & Ozer, D. J. (2019). Evaluating effect size in psychological research: Sense and nonsense. *Advances in Methods and Practices in Psychological Science, 2*(2), 156–168.
-- Gilardi, F., Alizadeh, M., & Kubli, M. (2023). ChatGPT outperforms crowd workers for text-annotation tasks. *PNAS, 120*(30).
+- Gilardi, F., Alizadeh, M., & Kubli, M. (2023). ChatGPT outperforms crowd workers for text-annotation tasks. *PNAS, 120*(30), e2305016120.
 - Google. (n.d.). Captions: download. YouTube Data API reference. https://developers.google.com/youtube/v3/docs/captions/download (accessed 2026-10-25).
-- Granger, C. W. J. (1969). Investigating causal relations by econometric models and cross-spectral methods. *Econometrica, 37*(3).
+- Granger, C. W. J. (1969). Investigating causal relations by econometric models and cross-spectral methods. *Econometrica, 37*(3), 424–438.
 - Holm, S. (1979). A simple sequentially rejective multiple test procedure. *Scandinavian Journal of Statistics, 6*(2), 65–70.
 - Huang, Y., & Morozov, I. (2025). The promotional effects of live streams by Twitch influencers. *Marketing Science, 44*(4), 916–932.
 - Hudders, L., De Jans, S., & De Veirman, M. (2021). The commercialization of social media stars: A literature review and conceptual framework on the strategic use of social media influencers. *International Journal of Advertising, 40*(3), 327–375.
-- Hutto, C., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for sentiment analysis of social media text. *ICWSM '14*.
+- Hutto, C., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for sentiment analysis of social media text. *ICWSM '14*, 216–225.
 - Johnson, M. R., & Woodcock, J. (2019). The impacts of live streaming and Twitch.tv on the video game industry. *Media, Culture & Society, 41*(5), 670–688.
 - Katz, E., & Lazarsfeld, P. F. (1955). *Personal Influence: The Part Played by People in the Flow of Mass Communications*. Free Press.
-- Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C. H., Gonzalez, J. E., Zhang, H., & Stoica, I. (2023). Efficient memory management for large language model serving with PagedAttention. *SOSP '23*.
+- Kwon, W., Li, Z., Zhuang, S., Sheng, Y., Zheng, L., Yu, C. H., Gonzalez, J. E., Zhang, H., & Stoica, I. (2023). Efficient memory management for large language model serving with PagedAttention. *SOSP '23*, 611–626.
 - Lazarsfeld, P. F., Berelson, B., & Gaudet, H. (1944). *The People's Choice: How the Voter Makes Up His Mind in a Presidential Campaign*. Duell, Sloan and Pearce.
-- McCombs, M. E., & Shaw, D. L. (1972). The agenda-setting function of mass media. *Public Opinion Quarterly, 36*(2).
+- McCombs, M. E., & Shaw, D. L. (1972). The agenda-setting function of mass media. *Public Opinion Quarterly, 36*(2), 176–187.
 - Mohammad, S. M., & Bravo-Marquez, F. (2017). WASSA-2017 shared task on emotion intensity. *Proceedings of WASSA @ EMNLP 2017*, 34–49.
 - Pangakis, N., Wolken, S., & Fasching, N. (2023). Automated annotation with generative AI requires validation. *arXiv:2306.00176*.
 - Politis, D. N., & Romano, J. P. (1992). A circular block-resampling procedure for stationary data. In R. LePage & L. Billard (Eds.), *Exploring the Limits of Bootstrap* (pp. 263–270). Wiley.
 - Reiss, M. V. (2023). Testing the reliability of ChatGPT for text annotation and classification: A cautionary remark. *arXiv:2304.11085*.
-- Sjöblom, M., & Hamari, J. (2017). Why do people watch others play video games? An empirical study on the motivations of Twitch users. *Computers in Human Behavior, 75*.
+- Sjöblom, M., & Hamari, J. (2017). Why do people watch others play video games? An empirical study on the motivations of Twitch users. *Computers in Human Behavior, 75*, 985–996.
 - Taylor, T. L. (2018). *Watch Me Play: Twitch and the Rise of Game Live Streaming*. Princeton University Press.
 - Törnberg, P. (2025). Large language models outperform expert coders and supervised classifiers at annotating political social media messages. *Social Science Computer Review, 43*(6), 1181–1195.
-- Watts, D. J., & Dodds, P. S. (2007). Influentials, networks, and public opinion formation. *Journal of Consumer Research, 34*(4).
+- Watts, D. J., & Dodds, P. S. (2007). Influentials, networks, and public opinion formation. *Journal of Consumer Research, 34*(4), 441–458.
 - Yang, A., et al. (Qwen Team). (2025). Qwen3 technical report. *arXiv:2505.09388*.
 - Zaller, J. R. (1992). *The Nature and Origins of Mass Opinion*. Cambridge University Press.
 - Zou, H., & Hastie, T. (2005). Regularization and variable selection via the elastic net. *Journal of the Royal Statistical Society: Series B, 67*(2), 301–320.
