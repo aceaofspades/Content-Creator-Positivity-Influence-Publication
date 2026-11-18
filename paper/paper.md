@@ -56,7 +56,7 @@ We required public daily player counts and a mature, opinion-forward creator eco
 
 **Creators.** For each game we hand-curated channels with sustained analysis, review, and state-of-the-game coverage. Transcripts were collected with yt-dlp and re-punctuated. Collection was capped at about 2,000 videos per channel, which truncates the earliest history of the most prolific channels (§8).
 
-**Reddit.** Submissions and comments from each game's main subreddit(s) came from per-subreddit Pushshift dumps (Baumgartner et al., 2020) distributed through Academic Torrents, with 2025 files added separately. Text was filtered for length and game-relevant keywords, and a random 20% of submissions was processed. Comments are the top-level replies to sampled submissions.
+**Reddit.** Submissions and comments from each game's main subreddit(s) came from per-subreddit Pushshift dumps (Baumgartner et al., 2020) distributed through Academic Torrents. Text was filtered for length and game-relevant keywords, and a random 20% of submissions was processed. Comments are the top-level replies to sampled submissions.
 
 **Player counts.** For Warframe, Counter-Strike, Dota 2, and Dead by Daylight we use daily Steam player counts. For Destiny 2 we use an all-platform series of daily unique players derived from public post-game activity reports. Destiny 2 moved to Steam, went free-to-play, and added cross-save on 2019-10-01; the all-platform series spans that date without a measurement break, but the player population changes there. Destiny 2's and Dead by Daylight's series begin at launch, so Destiny 1-era and pre-release discussion on Destiny 2's subreddit is excluded. A per-game release calendar supports release-aware analyses.
 
