@@ -289,15 +289,11 @@ We do not claim to falsify elite influence in games. The claim is narrower: at a
 
 **Design.** Precedence is not causation; every result is an observational association or a bound on one. The study was not pre-registered, and the weekly H1 test, the H1 decision rule, and the correction families were fixed after results were seen (§3). The power simulation plants a single linear lead at one lag and does not cover leads spread across lags or confined to particular periods. The secondary games' 6–9 creators make heterogeneity tests uninformative there. Sparse creator series (Counter-Strike has a median of 5 videos per week against Destiny 2's 49) attenuate correlations, so effect sizes are not comparable across games.
 
-## 9. Future Work
-
-The first priority is human validation of the Warframe extraction, since the one robust creator lead rests on an instrument validated only for Destiny 2, followed by a second annotator. Event studies of high-salience videos (quitting announcements, major reviews) would test point influence that aggregates wash out. Topic *incidence* rather than topic sentiment would test agenda-setting with the same data.
-
-## 10. Data and Code Availability
+## 9. Data and Code Availability
 
 Analysis code, prompts for all five games, and all aggregated output tables, including the full robustness batteries summarized here, are available at https://github.com/aceaofspades/Content-Creator-Positivity-Influence-Publication. The analysis plan is included. We share item identifiers and derived per-item scores rather than raw text, and the validation set with both sets of labels.
 
-## 11. Ethical Considerations
+## 10. Ethical Considerations
 
 All data are public: per-subreddit Pushshift Reddit dumps, public YouTube videos by professional creators, and public player counts. Analysis is aggregate. No creator is characterized individually, author-level Reddit statistics are reported only as distributions, and there was no interaction with human subjects. YouTube's official captions API returns captions only to users with permission to edit the video (Google, n.d.), so transcripts were collected with yt-dlp, an automated tool; YouTube's terms of service do not permit automated access without permission. We judged the collection proportionate: the transcripts are the public output of creators who publish commercially, we collected captions and metadata only, the use is non-commercial research, and we release identifiers and derived scores, not transcripts. Reddit's 2023 Data API terms restrict redistribution of Reddit data and derivatives, so we do not release Reddit text either. No institutional review was sought: the authors are independent researchers, and the study uses only public data, involves no interaction with human subjects, and redistributes no raw text.
 
