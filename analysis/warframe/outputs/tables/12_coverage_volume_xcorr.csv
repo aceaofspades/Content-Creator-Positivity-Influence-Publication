@@ -1,0 +1,7 @@
+series,treatment,peak_lag,peak_corr,corr_at_0,noise_threshold,p_value,significant,r_m2,r_m1,r_p1,r_p2,asymmetry,asym_p,asym_verdict,n_perm
+video_count,first_diff,0,0.5259,0.5259,0.1336,0.011,True,-0.1152,-0.2358,-0.0713,-0.0426,0.2371,0.011,right-heavy (coverage leads),1000
+view_weighted_volume,first_diff,0,0.4315,0.4315,0.1168,0.004,True,-0.1061,-0.166,0.0086,-0.0957,0.185,0.008,right-heavy (coverage leads),1000
+positive_volume,first_diff,0,0.4492,0.4492,0.1546,0.004,True,-0.0687,-0.2836,-0.0002,-0.0384,0.3137,0.005,right-heavy (coverage leads),1000
+negative_volume,first_diff,-3,0.1003,0.0138,0.1142,0.37,False,-0.0406,0.0228,-0.0215,-0.0127,-0.0164,0.824,"symmetric (co-movement, no lead)",1000
+video_count,levels,0,0.5732,0.5732,0.5443,0.0,True,0.4643,0.4918,0.5335,0.5086,0.086,0.006,right-heavy (coverage leads),1000
+view_weighted_volume,levels,0,0.4053,0.4053,0.3156,0.025,True,0.2252,0.2804,0.3535,0.2985,0.1463,0.009,right-heavy (coverage leads),1000

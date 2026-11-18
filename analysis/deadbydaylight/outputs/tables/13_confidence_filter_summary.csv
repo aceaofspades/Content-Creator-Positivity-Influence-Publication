@@ -1,0 +1,13 @@
+test,source,n_total,n_kept,pct_excluded,condition,daily_peak_lag,daily_peak_r,daily_r_at_0,daily_noise_thresh,daily_p_value,daily_significant,weekly_peak_lag,weekly_peak_r,weekly_r_at_0,weekly_noise_thresh,weekly_p_value,weekly_significant,field,peak_lag,peak_corr,r_at_lag1,noise_threshold,p_value,significant,n_seasons,M1_adj_r2,M2_adj_r2,M3_adj_r2,M3_sent_beta,M3_sent_p
+exclusion_rate,youtube,6577.0,5957.0,9.43,,,,,,,,,,,,,,,,,,,,,,,,,,
+exclusion_rate,reddit,134829.0,98915.0,26.64,,,,,,,,,,,,,,,,,,,,,,,,,,
+primary_xcorr,,,,,all,-10.0,-0.0609,0.0359,0.0808,0.463,False,1.0,0.0889,0.0716,0.1806,0.721,False,,,,,,,,,,,,,
+primary_xcorr,,,,,filtered,-10.0,-0.0645,0.0419,0.0784,0.366,False,1.0,0.0833,0.0649,0.1786,0.791,False,,,,,,,,,,,,,
+engagement_xcorr,,,,,all,,,,,,,,,,,,,creator__are_they_still_playing,4.0,-0.1176,-0.0267,0.0922,0.029,True,,,,,,
+engagement_xcorr,,,,,all,,,,,,,,,,,,,creator__are_they_burned_out,-4.0,-0.1268,-0.081,0.1496,0.197,False,,,,,,
+engagement_xcorr,,,,,all,,,,,,,,,,,,,creator__would_they_recommend_the_game,2.0,-0.2366,-0.2168,0.2193,0.035,True,,,,,,
+engagement_xcorr,,,,,filtered,,,,,,,,,,,,,creator__are_they_still_playing,4.0,-0.1202,-0.0332,0.1211,0.06,False,,,,,,
+engagement_xcorr,,,,,filtered,,,,,,,,,,,,,creator__are_they_burned_out,-4.0,-0.1268,-0.0809,0.1538,0.186,False,,,,,,
+engagement_xcorr,,,,,filtered,,,,,,,,,,,,,creator__would_they_recommend_the_game,2.0,-0.2368,-0.2171,0.2233,0.029,True,,,,,,
+M3_regression,,,,,all,,,,,,,,,,,,,,,,,,,,31.0,0.156,-0.002,0.138,0.241,0.5417
+M3_regression,,,,,filtered,,,,,,,,,,,,,,,,,,,,31.0,0.156,0.003,0.14,0.267,0.4975

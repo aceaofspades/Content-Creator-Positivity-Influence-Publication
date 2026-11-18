@@ -1,0 +1,19 @@
+field,treatment,max_lag_weeks,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,r_at_+1
+creator__are_they_still_playing,detrended,4,4,-0.1308,0.0917,0.033,True,contrary (opposite sign),0.0023
+creator__are_they_still_playing,detrended,12,4,-0.1308,0.1313,0.075,False,no peak above noise,0.0023
+creator__are_they_still_playing,season_phase,4,4,-0.1057,0.0881,0.018,True,contrary (opposite sign),-0.0356
+creator__are_they_still_playing,season_phase,12,4,-0.1057,0.1055,0.041,True,contrary (opposite sign),-0.0356
+creator__are_they_still_playing,detrended+season_phase,4,4,-0.1212,0.1117,0.029,True,contrary (opposite sign),-0.0169
+creator__are_they_still_playing,detrended+season_phase,12,4,-0.1212,0.1245,0.084,False,no peak above noise,-0.0169
+creator__are_they_burned_out,detrended,4,-4,-0.0438,0.1273,0.842,False,no peak above noise,0.0331
+creator__are_they_burned_out,detrended,12,11,-0.0705,0.1321,0.682,False,no peak above noise,0.0331
+creator__are_they_burned_out,season_phase,4,-4,-0.1212,0.1458,0.227,False,no peak above noise,-0.0917
+creator__are_they_burned_out,season_phase,12,11,-0.1458,0.1821,0.102,False,no peak above noise,-0.0917
+creator__are_they_burned_out,detrended+season_phase,4,-1,0.0458,0.1244,0.735,False,no peak above noise,0.023
+creator__are_they_burned_out,detrended+season_phase,12,11,-0.0625,0.1396,0.813,False,no peak above noise,0.023
+creator__would_they_recommend_the_game,detrended,4,2,-0.0849,0.151,0.434,False,no peak above noise,-0.0549
+creator__would_they_recommend_the_game,detrended,12,12,-0.11,0.1638,0.424,False,no peak above noise,-0.0549
+creator__would_they_recommend_the_game,season_phase,4,2,-0.2545,0.2328,0.002,True,contrary (opposite sign),-0.2115
+creator__would_they_recommend_the_game,season_phase,12,2,-0.2545,0.241,0.032,True,contrary (opposite sign),-0.2115
+creator__would_they_recommend_the_game,detrended+season_phase,4,2,-0.1051,0.1519,0.231,False,no peak above noise,-0.0465
+creator__would_they_recommend_the_game,detrended+season_phase,12,12,-0.1238,0.1664,0.31,False,no peak above noise,-0.0465

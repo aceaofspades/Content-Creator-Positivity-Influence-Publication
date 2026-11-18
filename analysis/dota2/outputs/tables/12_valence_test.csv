@@ -1,0 +1,3 @@
+series,treatment,peak_lag,peak_corr,corr_at_0,noise_threshold,p_value,significant,r_m2,r_m1,r_p1,r_p2,asymmetry,asym_p,asym_verdict,n_perm
+positive_share,first_diff,4,-0.0914,0.08,0.1439,0.576,False,-0.012,-0.0182,-0.0151,0.0596,0.0747,0.334,"symmetric (co-movement, no lead)",1000
+net_valence_share,first_diff,-4,0.0928,0.0632,0.146,0.519,False,0.024,-0.0404,-0.0264,0.0445,0.0344,0.622,"symmetric (co-movement, no lead)",1000

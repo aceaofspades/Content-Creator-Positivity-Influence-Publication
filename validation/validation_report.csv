@@ -1,0 +1,7 @@
+field,scope,type,n,pearson_r,mae,within_1_acc,kappa,interpretation
+emotional_tone (valence-collapsed),all,categorical,70,,,,0.783,substantial
+sentiment_score,all,numeric,75,0.821,0.32,0.987,,near-perfect
+optimism,submission + creator,numeric,49,0.84,0.449,1.0,,near-perfect
+still_playing,creator,categorical,25,,,,,near-perfect
+burned_out,creator,categorical,25,,,,1.0,near-perfect
+would_recommend,creator,categorical,25,,,,1.0,near-perfect

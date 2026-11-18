@@ -1,0 +1,41 @@
+year_number,year_name,season_number,season_name,start_date,end_date,duration
+1,Year 1,1,Game Launch,2016-06-14,2016-08-17,64
+1,Year 1,2,CH1: The Last Breath (The Nurse),2016-08-18,2016-10-24,67
+1,Year 1,3,CH2: The HALLOWEEN Chapter (The Shape),2016-10-25,2016-12-07,43
+1,Year 1,4,CH3: Of Flesh and Mud (The Hag),2016-12-08,2017-05-10,153
+2,Year 2,5,CH4: Spark of Madness (The Doctor),2017-05-11,2017-07-26,76
+2,Year 2,6,CH5: A Lullaby for the Dark (The Huntress),2017-07-27,2017-09-13,48
+2,Year 2,7,CH5.5: LEATHERFACE (The Cannibal),2017-09-14,2017-10-25,41
+2,Year 2,8,CH6: A Nightmare on Elm Street (The Nightmare),2017-10-26,2018-01-22,88
+3,Year 3,9,CH7: The SAW Chapter (The Pig),2018-01-23,2018-06-11,139
+3,Year 3,10,CH8: Curtain Call (The Clown),2018-06-12,2018-09-17,97
+3,Year 3,11,CH9: Shattered Bloodline (The Spirit),2018-09-18,2018-12-10,83
+3,Year 3,12,CH10: Darkness Among Us (The Legion),2018-12-11,2019-03-18,97
+4,Year 4,13,CH11: Demise of the Faithful (The Plague),2019-03-19,2019-06-17,90
+4,Year 4,14,CH12: Ghost Face,2019-06-18,2019-09-16,90
+4,Year 4,15,CH13: Stranger Things (The Demogorgon),2019-09-17,2019-12-02,76
+4,Year 4,16,CH14: Cursed Legacy (The Oni),2019-12-03,2020-01-22,50
+4,Year 4,18,CH15: Chains of Hate (The Deathslinger),2020-03-10,2020-06-15,97
+5,Year 5,19,CH16: Silent Hill (The Executioner),2020-06-16,2020-09-07,83
+5,Year 5,20,CH17: Descend Beyond (The Blight),2020-09-08,2020-09-10,2
+5,Year 5,22,CH18: A Binding of Kin (The Twins),2020-12-01,2021-03-29,118
+5,Year 5,23,CH19: All-Kill (The Trickster),2021-03-30,2021-06-14,76
+6,Year 6,24,CH20: Resident Evil (The Nemesis),2021-06-15,2021-09-06,83
+6,Year 6,25,CH21: Hellraiser (The Cenobite),2021-09-07,2021-11-29,83
+6,Year 6,26,CH22: Portrait of a Murder (The Artist),2021-11-30,2022-03-07,97
+6,Year 6,27,CH23: Sadako Rising (The Onryo),2022-03-08,2022-06-06,90
+7,Year 7,28,CH24: Roots of Dread (The Dredge),2022-06-07,2022-08-29,83
+7,Year 7,29,CH25: Resident Evil PROJECT W (The Mastermind),2022-08-30,2022-11-21,83
+7,Year 7,30,CH26: Forged in Fog (The Knight),2022-11-22,2023-03-06,104
+7,Year 7,31,CH27: Tools of Torment (The Skull Merchant),2023-03-07,2023-06-12,97
+8,Year 8,32,CH28: End Transmission (The Singularity),2023-06-13,2023-08-28,76
+8,Year 8,33,CH29: Alien (The Xenomorph),2023-08-29,2023-11-27,90
+8,Year 8,34,CH30: Chucky (The Good Guy),2023-11-28,2024-03-11,104
+8,Year 8,35,CH31: All Things Wicked (The Unknown),2024-03-12,2024-06-02,82
+9,Year 9,36,CH32: Dungeons & Dragons (The Lich),2024-06-03,2024-07-24,51
+9,Year 9,38,CH33: Castlevania (The Dark Lord),2024-08-27,2024-11-27,92
+9,Year 9,39,CH34: Doomed Course (The Houndmaster),2024-11-28,2025-04-01,124
+10,Year 10,40,CH35: Tokyo Ghoul (The Ghoul),2025-04-02,2025-06-16,75
+10,Year 10,41,CH36: Five Nights at Freddy's (The Animatronic),2025-06-17,2025-06-18,1
+10,Year 10,43,CH37: Sinister Grace (The Krasue),2025-09-23,2026-01-26,125
+10,Year 10,44,CH38: Stranger Things Ch. 2 (The First),2026-01-27,,

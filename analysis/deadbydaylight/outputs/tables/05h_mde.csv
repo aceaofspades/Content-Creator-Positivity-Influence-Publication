@@ -1,0 +1,17 @@
+game,granularity,target,planted_lag,mde_rho_80pct,false_positive_rate_rho0,power_at_rho_0.10,power_at_rho_0.20
+Dead by Daylight,daily,comments,1,0.125,0.0,0.625,1.0
+Dead by Daylight,daily,comments,3,0.129,0.0,0.575,1.0
+Dead by Daylight,daily,comments,7,0.125,0.0,0.63,1.0
+Dead by Daylight,daily,comments,14,0.124,0.0,0.655,1.0
+Dead by Daylight,daily,submissions,1,0.109,0.01,0.76,1.0
+Dead by Daylight,daily,submissions,3,0.101,0.0,0.795,1.0
+Dead by Daylight,daily,submissions,7,0.109,0.0,0.755,1.0
+Dead by Daylight,daily,submissions,14,0.117,0.0,0.7,1.0
+Dead by Daylight,weekly,comments,1,0.29,0.0,0.025,0.5
+Dead by Daylight,weekly,comments,2,,0.0,0.035,0.545
+Dead by Daylight,weekly,comments,3,,0.0,0.005,0.455
+Dead by Daylight,weekly,comments,4,0.288,0.0,0.04,0.52
+Dead by Daylight,weekly,submissions,1,0.259,0.0,0.165,0.56
+Dead by Daylight,weekly,submissions,2,0.258,0.0,0.2,0.535
+Dead by Daylight,weekly,submissions,3,0.263,0.005,0.18,0.545
+Dead by Daylight,weekly,submissions,4,0.261,0.005,0.205,0.53

@@ -1,0 +1,5 @@
+game,target,granularity,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+Warframe,submissions,daily,22,0.1224,0.1224,0.0274822695035461,22,0.1224,0.016400709219858155,2255,True,1934
+Warframe,submissions,weekly,3,0.2532,0.2532,0.0018181818181818182,3,0.2532,0.0018181818181818182,549,True,549
+Warframe,comments,daily,-15,0.0983,0.0983,0.4995567375886525,14,0.0883,0.30141843971631205,2255,True,2250
+Warframe,comments,weekly,-1,0.1356,0.1356,0.7018181818181818,2,0.0928,0.44727272727272727,549,True,549

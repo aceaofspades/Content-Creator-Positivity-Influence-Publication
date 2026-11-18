@@ -1,0 +1,31 @@
+window,subset,category,mean_lag,median_lag,mean_abs_r,mean_abs_r0,n_fields,n_sig
+narrow,non_patch,Content & Activities,0.0,0.0,0.103,0.103,1,0
+narrow,non_patch,Developer Communication,0.0,0.0,0.04,0.04,1,0
+narrow,non_patch,Overall,-10.0,-10.0,0.084,0.067,1,0
+narrow,non_patch,Progression & Economy,0.0,0.0,0.421,0.421,1,0
+narrow,non_patch,PvP,-4.75,-5.5,0.41,0.169,4,1
+narrow,non_patch,Rewards & Loot,-7.0,-7.0,0.257,0.086,1,0
+narrow,non_patch,Sandbox & Balance,0.625,2.5,0.223,0.054,8,2
+narrow,non_patch,Social & Onboarding,13.0,13.0,0.297,0.073,1,0
+narrow,non_patch,Technical,-8.5,-8.5,0.372,0.044,2,0
+narrow,patch,Content & Activities,-1.2,0.0,0.319,0.145,5,0
+narrow,patch,Overall,24.0,24.0,0.157,0.009,1,1
+narrow,patch,Progression & Economy,-10.0,-10.0,0.382,0.102,1,0
+narrow,patch,PvP,-26.0,-26.0,0.328,0.0,1,0
+narrow,patch,Sandbox & Balance,-5.125,-17.0,0.217,0.049,8,0
+narrow,patch,Social & Onboarding,13.0,13.0,0.259,0.03,1,0
+narrow,patch,Technical,15.5,15.5,0.424,0.044,2,0
+wide,non_patch,Overall,28.0,28.0,0.119,0.039,1,0
+wide,non_patch,PvP,5.5,5.5,0.338,0.166,2,0
+wide,non_patch,Rewards & Loot,0.0,0.0,0.089,0.089,1,0
+wide,non_patch,Sandbox & Balance,10.625,19.5,0.234,0.053,8,0
+wide,non_patch,Social & Onboarding,13.0,13.0,0.436,0.157,1,0
+wide,non_patch,Technical,7.0,7.0,0.306,0.114,2,0
+wide,patch,Content & Activities,-3.333,-5.0,0.38,0.137,6,1
+wide,patch,Overall,-23.0,-23.0,0.08,0.024,1,0
+wide,patch,Progression & Economy,-17.0,-17.0,0.455,0.046,1,0
+wide,patch,PvP,13.0,12.0,0.404,0.205,3,1
+wide,patch,Rewards & Loot,-6.0,-6.0,0.575,0.056,1,1
+wide,patch,Sandbox & Balance,-1.0,-3.0,0.174,0.055,8,0
+wide,patch,Social & Onboarding,21.0,21.0,0.197,0.006,1,0
+wide,patch,Technical,25.0,25.0,0.305,0.039,2,0

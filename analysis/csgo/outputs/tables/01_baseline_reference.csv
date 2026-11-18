@@ -1,0 +1,7 @@
+season_name,year_name,baseline_source,baseline_mean,baseline_median,revival,revival_median,retention
+CS:GO Release,CS:GO Launch,fallback_all_prior,3041.0,1236.0,16.24804275097302,39.98220064724919,0.3933933847123373
+Operation Vanguard,Early Operations,prior_year,41365.0,32061.0,6.5443519744344565,8.443498331305948,1.1621927555833955
+Operation Breakout,Early Operations,prior_year,41365.0,32061.0,4.690344145780772,6.051464395995135,1.0651102412761246
+CS2 Release,Counter-Strike 2,prior_year,904531.0,879822.0,1.627064282445934,1.6727588080316247,0.7483835835571547
+Operation Shattered Web,Free-to-Play Era,prior_year,564548.0,568954.0,1.3540703113811308,1.343586075136193,0.940065026295695
+Free-to-Play + Danger Zone,Free-to-Play Era,prior_year,564548.0,568954.0,1.3278546593486038,1.3175734045049377,0.8307590749516053

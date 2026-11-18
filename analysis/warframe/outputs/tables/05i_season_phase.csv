@@ -1,0 +1,5 @@
+game,target,treatment,max_lag_weeks,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+Warframe,submissions,season_phase_residualized,4,3,0.2422,0.2422,0.0018181818181818182,3,0.2422,0.0018181818181818182,549,True,549
+Warframe,submissions,season_phase_residualized,12,3,0.2422,0.2422,0.007272727272727273,3,0.2422,0.007272727272727273,549,True,549
+Warframe,comments,season_phase_residualized,4,0,0.1362,0.1362,0.7163636363636363,3,0.1078,0.4163636363636364,549,True,549
+Warframe,comments,season_phase_residualized,12,-12,0.1575,0.1575,0.7272727272727273,10,0.1354,0.4218181818181818,549,True,549

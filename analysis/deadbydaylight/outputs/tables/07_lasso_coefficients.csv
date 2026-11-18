@@ -1,0 +1,15 @@
+horizon_weeks,feature,coefficient,stability,bivar_corr,sign_matches_bivar,is_stable
+4,reddit__was_discussed__topic__event_rewards,-2.201434761176948,0.98,-0.40080875469122995,True,True
+4,reddit__topic__toxicity_behavior,-1.1785196370225937,0.85,-0.29296063329751776,True,True
+4,reddit__was_discussed__topic__chapter_pricing,-1.1220912552263977,0.88,-0.2875422261707906,True,True
+4,reddit__topic__content_quality,1.1131053047197736,0.78,0.3064547590782327,True,False
+4,reddit__was_discussed__topic__cosmetic_availability,-0.9046587920518839,0.68,-0.31217390330052747,True,False
+4,reddit__was_discussed__topic__bug_fix_responsiveness,-0.7375852440789286,0.73,-0.28136084705305275,True,False
+4,reddit__topic__community_feedback_response,0.3349769799999965,0.6,0.22205311357469834,True,False
+4,reddit__was_discussed__topic__load_times,-0.3291657676114593,0.46,-0.24041862208157866,True,False
+4,reddit__was_discussed__topic__seasonal_events,-0.27430350005747794,0.54,-0.27214614229341005,True,False
+4,reddit__topic__game_modes,0.24764554972287106,0.5,0.21305534985314947,True,False
+4,reddit__topic__dedicated_server_quality,0.12831242971684906,0.47,0.2185953006212581,True,False
+4,reddit__topic__shrine_perk_availability,-0.10826669969044125,0.47,-0.2086245080855812,True,False
+6,reddit__was_discussed__topic__event_rewards,-0.3535603633061283,0.57,-0.29235436525652797,True,False
+6,creator__topic__hit_validation,-0.05448454785522471,0.4,-0.26106434073769375,True,False

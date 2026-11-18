@@ -1,0 +1,4 @@
+peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,field
+-2,0.0171,0.076,0.93,False,no peak above noise,creator__are_they_still_playing
+8,0.0341,0.0639,0.663,False,no peak above noise,creator__are_they_burned_out
+9,0.0953,0.0886,0.011,True,consistent with hypothesis,creator__would_they_recommend_the_game

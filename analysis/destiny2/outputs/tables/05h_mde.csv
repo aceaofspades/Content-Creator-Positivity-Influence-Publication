@@ -1,0 +1,17 @@
+game,granularity,target,planted_lag,mde_rho_80pct,false_positive_rate_rho0,power_at_rho_0.10,power_at_rho_0.20
+Destiny 2,daily,comments,1,0.14,0.025,0.45,1.0
+Destiny 2,daily,comments,3,0.141,0.025,0.425,1.0
+Destiny 2,daily,comments,7,0.131,0.005,0.615,1.0
+Destiny 2,daily,comments,14,0.138,0.025,0.47,1.0
+Destiny 2,daily,submissions,1,0.123,0.035,0.645,1.0
+Destiny 2,daily,submissions,3,0.127,0.03,0.58,1.0
+Destiny 2,daily,submissions,7,0.127,0.045,0.59,1.0
+Destiny 2,daily,submissions,14,0.128,0.025,0.605,1.0
+Destiny 2,weekly,comments,1,0.29,0.01,0.035,0.47
+Destiny 2,weekly,comments,2,0.282,0.035,0.08,0.475
+Destiny 2,weekly,comments,3,0.285,0.03,0.06,0.42
+Destiny 2,weekly,comments,4,0.288,0.03,0.05,0.44
+Destiny 2,weekly,submissions,1,,0.02,0.075,0.385
+Destiny 2,weekly,submissions,2,,0.035,0.045,0.435
+Destiny 2,weekly,submissions,3,,0.02,0.06,0.43
+Destiny 2,weekly,submissions,4,,0.025,0.065,0.395

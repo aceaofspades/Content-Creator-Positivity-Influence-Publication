@@ -1,0 +1,13 @@
+authority_metric,tier,n_creators,peak_lag_weeks,peak_corr,noise_threshold,p_value,significant
+Total portfolio views (script 06 definition),Low,3,-4,0.1926,0.279,0.367,False
+Total portfolio views (script 06 definition),Mid,3,2,0.3276,0.3042,0.0,True
+Total portfolio views (script 06 definition),High,3,3,0.2431,0.197,0.012,True
+Mean views per video (output-volume neutral),Low,3,3,0.2238,0.2015,0.01,True
+Mean views per video (output-volume neutral),Mid,3,0,0.2571,0.2006,0.003,True
+Mean views per video (output-volume neutral),High,3,-3,0.1398,0.2616,0.701,False
+Peak views (headline-moment authority),Low,3,2,0.3138,0.3034,0.01,True
+Peak views (headline-moment authority),Mid,3,3,0.1728,0.1732,0.052,False
+Peak views (headline-moment authority),High,3,0,0.2615,0.1886,0.0,True
+"Recency-corrected (views/day, corrects accumulation bias)",Low,3,3,0.2138,0.1904,0.013,True
+"Recency-corrected (views/day, corrects accumulation bias)",Mid,3,0,0.2181,0.1622,0.007,True
+"Recency-corrected (views/day, corrects accumulation bias)",High,3,-4,0.1387,0.2734,0.659,False

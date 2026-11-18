@@ -1,0 +1,7 @@
+game,sample,granularity,n_submissions,n_dropped,peak_lag,peak_r,noise_threshold,p_value,significant,r_at_0
+Destiny 2,all,daily,235623,0,-1,0.174,0.089,0.015,True,0.1205
+Destiny 2,all,weekly,235623,0,0,0.4129,0.2309,0.008,True,0.4129
+Destiny 2,no_panel,daily,235375,248,-1,0.175,0.0912,0.013,True,0.1198
+Destiny 2,no_panel,weekly,235375,248,0,0.4139,0.2274,0.004,True,0.4139
+Destiny 2,no_youtube,daily,230807,4816,-1,0.177,0.0958,0.013,True,0.1173
+Destiny 2,no_youtube,weekly,230807,4816,0,0.417,0.2205,0.005,True,0.417

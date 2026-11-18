@@ -1,0 +1,16 @@
+year_number,year_name,season_number,season_name,start_date,end_date,duration
+1,CS:GO Launch,1,CS:GO Release,2012-08-21,2013-04-24,246
+1,CS:GO Launch,2,Operation Payback,2013-04-25,2013-08-31,128
+1,CS:GO Launch,3,Operation Bravo,2013-09-19,2014-02-05,139
+2,Early Operations,4,Operation Phoenix,2014-02-20,2014-06-11,111
+2,Early Operations,5,Operation Breakout,2014-07-01,2014-10-02,93
+2,Early Operations,6,Operation Vanguard,2014-11-11,2015-03-31,140
+3,Mid Operations,7,Operation Bloodhound,2015-05-26,2015-10-01,128
+3,Mid Operations,8,Operation Wildfire,2016-02-17,2016-07-15,149
+3,Mid Operations,9,Operation Hydra,2017-05-23,2017-11-13,174
+4,Free-to-Play Era,10,Free-to-Play + Danger Zone,2018-12-06,2019-11-17,346
+4,Free-to-Play Era,11,Operation Shattered Web,2019-11-18,2020-03-31,134
+4,Free-to-Play Era,12,Operation Broken Fang,2020-12-03,2021-05-03,151
+4,Free-to-Play Era,13,Operation Riptide,2021-09-21,2022-02-21,153
+5,Counter-Strike 2,14,CS2 Release,2023-09-27,2025-05-07,588
+5,Counter-Strike 2,15,Weekly Missions Update,2025-05-08,,

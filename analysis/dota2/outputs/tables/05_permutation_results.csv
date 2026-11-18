@@ -1,0 +1,11 @@
+category,obs_mean_lag,null_mean,null_std,p_left_tail
+Content & Activities,-6.75,-0.45,5.91,0.158
+Developer Communication,9.0,-0.19,6.56,0.926
+Inventory & UI,2.0,-1.5,8.17,0.654
+Monetization,3.43,0.07,6.65,0.689
+Progression & Economy,-16.0,2.06,15.88,0.208
+PvP,4.38,-0.52,5.76,0.81
+Rewards & Loot,2.4,0.56,7.34,0.597
+Sandbox & Balance,0.57,0.49,6.08,0.518
+Social & Onboarding,-3.17,0.89,6.95,0.301
+Technical,2.83,-0.38,6.53,0.702

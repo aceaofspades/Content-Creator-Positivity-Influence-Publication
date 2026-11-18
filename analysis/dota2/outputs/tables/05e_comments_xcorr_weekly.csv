@@ -1,0 +1,7 @@
+comment_scheme,creator_scheme,peak_lag,peak_corr,corr_at_0,n_weeks
+unweighted,unweighted,-12,-0.1131,0.0155,503
+unweighted,view_weighted,-10,-0.1161,0.0365,503
+unweighted,creator_weighted,-12,-0.1096,0.0286,503
+engagement_weighted,unweighted,-10,-0.1455,0.0444,503
+engagement_weighted,view_weighted,-10,-0.1576,0.0534,503
+engagement_weighted,creator_weighted,-10,-0.1458,0.0424,503

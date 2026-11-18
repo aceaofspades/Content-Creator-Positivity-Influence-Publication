@@ -1,0 +1,46 @@
+You are analyzing Reddit comments from CS2 (Counter-Strike 2) subreddits.
+
+## Context
+Post title: "{{POST_TITLE}}"
+Post summary: "{{POST_SUMMARY}}"
+
+## Rules
+- Only assess what's clearly expressed
+- If unclear, use "unclear" or "NA"
+- Analyze EACH comment separately
+
+## Fields (per comment)
+### sentiment_score
+Overall sentiment of this comment.
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+- -2 = Extremely negative (is terrible, worst it's ever been)
+- -1 = Negative (significant problems, not enjoyable)
+-  0 = Neutral (mixed feelings, no strong opinion either way)
+-  1 = Positive (is in a good place, enjoying it)
+-  2 = Extremely positive (is fantastic, best it's ever been)
+
+### topics_mentioned
+What topics does this comment discuss? Return as array. Only include topics clearly referenced.
+**Values:** "competitive", "premier", "faceit", "maps", "map_pool", "map_design", "operations", "balance", "weapons", "economy_balance", "utility", "movement", "recoil", "anti_cheat", "cheaters", "matchmaking", "rank_system", "cases", "skins", "skin_economy", "monetization", "prime_status", "valve", "subtick", "server_quality", "bugs", "community_servers", "cs2_migration", "new_player", "returning", "quitting", "playing", "pro_scene", "OTHER - [description]", or empty array [] if none
+
+### emotional_tone
+**Values:** "hopeful", "enthusiastic", "satisfied", "frustrated", "angry", "resigned", "disappointed", "nostalgic", "sarcastic", "constructive", "neutral", "unclear"
+
+### player_status
+Any indication of their play status?
+**Values:** "playing", "quitting", "quit", "returning", "taking_break", "NA"
+
+---
+
+## Comments to Analyze
+{{COMMENTS}}
+
+---
+
+Respond with a JSON object where each key is the comment ID:
+```json
+{
+  "comment_id_1": {"sentiment_score": 0, "topics_mentioned": [], "emotional_tone": "", "player_status": ""},
+  "comment_id_2": {"sentiment_score": 0, "topics_mentioned": [], "emotional_tone": "", "player_status": ""}
+}
+```

@@ -1,0 +1,19 @@
+field,category,peak_lag,peak_corr,corr_at_0,n_overlap
+topic__workshop_content,Content & Activities,-28,0.1821,-0.1113,156
+topic__content_quantity,Content & Activities,-22,0.4053,0.0955,97
+topic__content_quality,Content & Activities,-22,-0.1955,-0.1495,164
+topic__performance_optimization,Technical,-19,0.168,-0.0612,190
+topic__anti_cheat,PvP,-16,0.1747,-0.0763,281
+topic__gunplay_feel,Sandbox & Balance,-12,0.1136,0.0789,460
+topic__matchmaking_quality,PvP,-11,0.1787,0.0463,273
+topic__server_stability,Technical,-10,-0.3747,-0.0088,101
+topic__movement_mechanics,Sandbox & Balance,-5,0.1993,0.0546,227
+topic__bug_fixes,Technical,-5,-0.1749,0.0358,115
+topic__game_modes,Content & Activities,-2,0.2276,0.1268,218
+topic__skin_quality,Rewards & Loot,4,-0.2029,0.0413,110
+topic__team_communication,PvP,4,0.2326,0.0792,128
+topic__weapon_balance,Sandbox & Balance,5,0.1749,-0.0025,280
+topic__map_pool,Content & Activities,19,0.1533,-0.0566,335
+topic__economy_balance,Sandbox & Balance,23,-0.1414,0.0223,166
+topic__utility_balance,Sandbox & Balance,27,0.0849,-0.0538,352
+topic__map_design,Content & Activities,27,0.0883,-0.0544,758

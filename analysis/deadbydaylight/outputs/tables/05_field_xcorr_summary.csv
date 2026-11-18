@@ -1,0 +1,15 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__chase_mechanics,-18,-0.07004436068595425,0.005599997983037208,1071,Sandbox & Balance
+overall__score,-10,-0.060854856828198516,0.03588904431255694,2479,Overall
+topic__hit_validation,-9,0.24573888630662558,0.07185551744635037,112,Technical
+topic__killer_balance,-6,0.04527281222334889,0.03627335133940024,1433,Sandbox & Balance
+topic__matchmaking_quality,-3,-0.17705695810896244,0.09651191794670556,294,PvP
+topic__camping_tunneling_slugging,-2,0.1458007349556117,0.028017037172920804,512,Sandbox & Balance
+topic__bug_fixes,-1,0.12261114043964726,0.016690888232480668,248,Technical
+topic__map_balance,0,0.15199292321849017,0.15199292321849017,421,Sandbox & Balance
+topic__perk_balance,7,0.06360518385026744,0.016301215232464483,1712,Sandbox & Balance
+topic__survivor_balance,9,0.07395447189384965,0.01741730303071647,631,Sandbox & Balance
+topic__gen_speed_balance,12,-0.21863226851604833,-0.008662049585376197,161,Sandbox & Balance
+topic__toxicity_behavior,13,0.28044873434099643,-0.0519787887439707,281,Social & Onboarding
+topic__killer_roster,16,0.3075825124978932,0.08002147964441286,102,Content & Activities
+topic__add_on_balance,27,-0.2842449453920253,0.09961919565741023,161,Sandbox & Balance

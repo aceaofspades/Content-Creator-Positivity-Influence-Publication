@@ -1,0 +1,7 @@
+series,treatment,peak_lag,peak_corr,corr_at_0,noise_threshold,p_value,significant,r_m2,r_m1,r_p1,r_p2,asymmetry,asym_p,asym_verdict,n_perm
+video_count,first_diff,0,0.1141,0.1141,0.1168,0.073,False,-0.0424,-0.0371,-0.0774,-0.0183,-0.0163,0.808,"symmetric (co-movement, no lead)",1000
+view_weighted_volume,first_diff,-5,0.1056,0.002,0.1523,0.266,False,0.0932,-0.0364,-0.0256,0.0226,-0.0598,0.421,"symmetric (co-movement, no lead)",1000
+positive_volume,first_diff,4,-0.0885,0.0348,0.1444,0.677,False,0.0089,-0.0335,-0.0057,-0.0697,-0.0508,0.512,"symmetric (co-movement, no lead)",1000
+negative_volume,first_diff,-4,-0.1263,0.0464,0.1451,0.113,False,0.0402,-0.05,-0.0502,0.0467,0.0063,0.933,"symmetric (co-movement, no lead)",1000
+video_count,levels,8,-0.2454,-0.2009,0.5503,0.578,False,-0.1958,-0.1985,-0.2157,-0.2233,-0.0447,0.197,"symmetric (co-movement, no lead)",1000
+view_weighted_volume,levels,8,-0.4644,-0.425,0.495,0.138,False,-0.3939,-0.4221,-0.4286,-0.4448,-0.0574,0.041,left-heavy (players lead),1000

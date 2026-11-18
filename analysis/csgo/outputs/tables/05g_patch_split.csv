@@ -1,0 +1,17 @@
+window,subset,category,mean_lag,median_lag,mean_abs_r,mean_abs_r0,n_fields,n_sig
+narrow,non_patch,Content & Activities,-2.667,-8.0,0.275,0.09,3,0
+narrow,non_patch,Overall,1.0,1.0,0.09,0.064,1,0
+narrow,non_patch,PvP,2.667,1.0,0.346,0.048,3,1
+narrow,non_patch,Sandbox & Balance,15.0,13.0,0.316,0.147,5,0
+narrow,non_patch,Technical,3.667,2.0,0.395,0.155,3,0
+narrow,patch,Content & Activities,2.0,2.0,0.466,0.038,1,0
+narrow,patch,Overall,-9.0,-9.0,0.257,0.053,1,0
+narrow,patch,Sandbox & Balance,-3.0,-3.0,0.53,0.027,1,1
+wide,non_patch,Content & Activities,-3.333,-10.0,0.289,0.092,3,0
+wide,non_patch,Overall,1.0,1.0,0.088,0.065,1,0
+wide,non_patch,PvP,2.667,1.0,0.362,0.042,3,1
+wide,non_patch,Sandbox & Balance,16.6,15.0,0.317,0.142,5,0
+wide,non_patch,Technical,4.5,4.5,0.417,0.207,2,0
+wide,patch,Content & Activities,18.0,18.0,0.335,0.003,1,0
+wide,patch,Overall,-25.0,-25.0,0.281,0.055,1,0
+wide,patch,Sandbox & Balance,-3.0,-3.0,0.514,0.007,1,0

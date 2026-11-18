@@ -1,0 +1,5 @@
+model,adj_r2,sentiment_beta,sentiment_t,sentiment_p
+M1_revival_only,0.048,,,
+M2_sentiment_only,0.004,0.416,1.045,0.306
+M3_full,0.038,0.339,0.857,0.4
+diagnostics,,0.176,0.39,

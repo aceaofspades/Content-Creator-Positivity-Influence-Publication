@@ -1,0 +1,67 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__item_balance,-4,-0.0663,-0.0077,481,Sandbox & Balance
+topic__map_changes,-4,-0.0892,-0.0081,465,Sandbox & Balance
+topic__turbo_mode,-4,-0.0507,0.0203,454,PvP
+topic__anti_cheat_smurfing,-4,-0.0798,0.0728,461,PvP
+topic__bug_fixes,-4,0.0605,-0.0401,414,Technical
+topic__performance_optimization,-4,0.0681,0.0411,425,Technical
+topic__toxicity_behavior_enforcement,-4,0.1286,-0.0396,362,Social & Onboarding
+topic__hero_pool,-4,-0.1151,-0.0434,354,Content & Activities
+topic__new_player_experience,-3,-0.129,0.0492,359,Social & Onboarding
+topic__returning_player_experience,-3,-0.0907,-0.0158,358,Social & Onboarding
+topic__patch_design_philosophy,-3,-0.0652,0.0394,424,Developer Communication
+topic__tutorials_guidance,-3,-0.151,0.0682,353,Social & Onboarding
+topic__replayability,-3,0.0743,0.038,385,Content & Activities
+topic__game_modes,-3,0.0719,0.0684,376,Content & Activities
+topic__cosmetic_availability,-3,-0.0937,-0.0014,414,Monetization
+topic__gameplay_feel,-3,-0.1212,-0.0529,483,Sandbox & Balance
+topic__hero_loadout_system,-3,-0.1292,-0.0625,238,Inventory & UI
+topic__inventory_management,-3,-0.1948,0.0359,251,Inventory & UI
+topic__world_lore,-2,0.2273,0.1891,61,Narrative
+topic__ui_hud_design,-2,-0.1027,0.0236,264,Inventory & UI
+topic__communication_transparency,-2,-0.0402,0.0211,427,Developer Communication
+topic__hero_balance,-2,-0.0443,0.0118,482,Sandbox & Balance
+topic__hero_lore,-2,0.2084,0.2027,63,Narrative
+topic__arcana_pricing,-1,-0.0608,-0.004,414,Monetization
+topic__seasonal_pass_pricing,-1,-0.0821,0.0432,424,Monetization
+topic__ti_prize_pool,-1,-0.1148,-0.0961,420,Monetization
+topic__ranked_matchmaking,-1,0.0867,0.0248,476,PvP
+topic__behavior_score,-1,-0.0641,-0.0394,467,PvP
+topic__event_storylines,-1,-0.1704,0.1325,53,Narrative
+topic__mmr_rank_progression,0,0.1301,0.1301,177,Progression & Economy
+topic__custom_games,0,0.0767,0.0767,344,Content & Activities
+topic__patch_meta,0,0.0915,0.0915,482,Sandbox & Balance
+topic__community_feedback_response,0,0.0636,0.0636,422,Developer Communication
+topic__dev_updates,0,0.0703,0.0703,422,Developer Communication
+topic__content_quantity,1,0.0785,0.0526,382,Content & Activities
+topic__live_service_model,1,0.0757,0.0543,424,Developer Communication
+topic__patch_frequency,1,0.1172,0.0671,421,Developer Communication
+topic__ability_interactions,1,-0.0599,-0.0044,481,Sandbox & Balance
+topic__seasonal_pass_rewards,1,-0.1227,-0.0687,123,Rewards & Loot
+topic__content_quality,1,0.0885,0.0871,386,Content & Activities
+topic__cosmetic_rewards,2,-0.1482,0.0657,134,Rewards & Loot
+topic__menu_navigation,2,0.1137,-0.0229,247,Inventory & UI
+topic__hero_reworks,2,-0.0664,0.0472,459,Sandbox & Balance
+topic__client_quality,2,0.0863,0.0408,425,Technical
+topic__new_hero_releases,2,-0.0752,0.0321,329,Content & Activities
+topic__skin_variety,2,-0.1521,0.0732,130,Rewards & Loot
+topic__event_rewards,2,-0.2183,-0.0073,123,Rewards & Loot
+topic__drop_system,2,0.1744,-0.0053,125,Progression & Economy
+topic__seasonal_pass_system,2,0.1874,0.0078,124,Progression & Economy
+topic__arcana_immortal,2,-0.1563,0.0631,129,Rewards & Loot
+topic__dragons_blood,2,-0.1815,0.0027,49,Narrative
+overall__score,3,-0.0806,0.0586,503,Overall
+topic__server_stability,3,0.142,0.0841,430,Technical
+topic__mmr_system,3,0.09,-0.0017,465,PvP
+topic__team_communication,3,-0.0919,-0.0476,474,PvP
+topic__fomo_limited_time,3,0.0822,-0.0039,418,Monetization
+topic__matchmaking_times,3,0.0657,-0.0615,420,Technical
+topic__replay_spectator_tools,3,0.0814,-0.0575,396,Technical
+topic__party_matchmaking,4,0.0945,-0.0627,341,Social & Onboarding
+topic__coaching_system,4,-0.0774,-0.0138,321,Social & Onboarding
+topic__seasonal_events,4,-0.0852,-0.0623,337,Content & Activities
+topic__free_to_play_experience,4,0.0886,-0.0396,429,Monetization
+topic__matchmaking_quality,4,0.0647,0.0253,477,PvP
+topic__captains_mode,4,0.0298,0.0123,455,PvP
+topic__steam_marketplace,4,-0.2066,-0.1006,118,Progression & Economy
+topic__steam_marketplace_economy,4,-0.0902,0.0053,411,Monetization

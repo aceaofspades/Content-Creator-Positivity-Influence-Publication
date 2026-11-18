@@ -1,0 +1,6 @@
+year_number,era,era_start,era_end,n_days,n_weeks,daily_peak_lag,daily_peak_corr,daily_noise_threshold,daily_p_value,daily_significant,weekly_peak_lag,weekly_peak_corr,weekly_noise_threshold,weekly_p_value,weekly_significant
+1,CS:GO Launch,2012-08-21,2014-02-05,0,0,,,,,False,,,,,False
+2,Early Operations,2014-02-20,2015-03-31,31,13,,,,,False,,,,,False
+3,Mid Operations,2015-05-26,2017-11-13,350,123,8.0,0.10367035750534502,0.17675654069882024,0.955,False,2.0,0.1927400436848279,0.236480716982627,0.252,False
+4,Free-to-Play Era,2018-12-06,2022-02-21,358,158,-25.0,-0.16715563823155835,0.17133266688372914,0.06,False,4.0,0.1650318886527206,0.23556267369320072,0.364,False
+5,Counter-Strike 2,2023-09-27,2025-05-07,168,79,-18.0,0.1520847609128917,0.24506090434997407,0.888,False,-1.0,0.20597265203458515,0.2545105507338235,0.406,False

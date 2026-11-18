@@ -1,0 +1,7 @@
+game,sample,granularity,n_submissions,n_dropped,peak_lag,peak_r,noise_threshold,p_value,significant,r_at_0
+Dead by Daylight,all,daily,134829,0,-10,-0.0609,0.0814,0.4875,False,0.0359
+Dead by Daylight,all,weekly,134829,0,1,0.0889,0.1808,0.7083,False,0.0716
+Dead by Daylight,no_panel,daily,134788,41,-10,-0.0609,0.0806,0.4775,False,0.0356
+Dead by Daylight,no_panel,weekly,134788,41,1,0.0882,0.1842,0.7393,False,0.0709
+Dead by Daylight,no_youtube,daily,133221,1608,-10,-0.0598,0.0814,0.5155,False,0.0363
+Dead by Daylight,no_youtube,weekly,133221,1608,1,0.0932,0.1835,0.7183,False,0.0649

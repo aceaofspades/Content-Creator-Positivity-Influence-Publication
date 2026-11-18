@@ -1,0 +1,19 @@
+field,treatment,max_lag_weeks,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,r_at_+1
+creator__are_they_still_playing,detrended,4,-1,-0.0057,0.0872,0.995,False,no peak above noise,-0.0003
+creator__are_they_still_playing,detrended,12,-11,-0.0111,0.0957,0.978,False,no peak above noise,-0.0003
+creator__are_they_still_playing,season_phase,4,-4,0.0693,0.0859,0.197,False,no peak above noise,0.0688
+creator__are_they_still_playing,season_phase,12,10,0.078,0.0908,0.138,False,no peak above noise,0.0688
+creator__are_they_still_playing,detrended+season_phase,4,-1,-0.008,0.0929,0.997,False,no peak above noise,-0.0017
+creator__are_they_still_playing,detrended+season_phase,12,11,0.0196,0.096,0.973,False,no peak above noise,-0.0017
+creator__are_they_burned_out,detrended,4,-4,-0.1221,0.1063,0.014,True,contrary (opposite sign + players lead),-0.0921
+creator__are_they_burned_out,detrended,12,-4,-0.1221,0.1174,0.017,True,contrary (opposite sign + players lead),-0.0921
+creator__are_they_burned_out,season_phase,4,-4,-0.0864,0.0873,0.056,False,no peak above noise,-0.0778
+creator__are_they_burned_out,season_phase,12,-6,-0.0865,0.0927,0.137,False,no peak above noise,-0.0778
+creator__are_they_burned_out,detrended+season_phase,4,-4,-0.124,0.1046,0.002,True,contrary (opposite sign + players lead),-0.0939
+creator__are_they_burned_out,detrended+season_phase,12,-4,-0.124,0.1166,0.005,True,contrary (opposite sign + players lead),-0.0939
+creator__would_they_recommend_the_game,detrended,4,4,0.0586,0.1258,0.628,False,no peak above noise,0.0329
+creator__would_they_recommend_the_game,detrended,12,11,0.0951,0.1651,0.433,False,no peak above noise,0.0329
+creator__would_they_recommend_the_game,season_phase,4,-4,-0.1074,0.1581,0.249,False,no peak above noise,-0.0602
+creator__would_they_recommend_the_game,season_phase,12,-7,-0.1209,0.1737,0.24,False,no peak above noise,-0.0602
+creator__would_they_recommend_the_game,detrended+season_phase,4,4,0.0657,0.1274,0.56,False,no peak above noise,0.0408
+creator__would_they_recommend_the_game,detrended+season_phase,12,11,0.0987,0.1552,0.392,False,no peak above noise,0.0408

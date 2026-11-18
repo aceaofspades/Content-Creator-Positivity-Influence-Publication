@@ -1,0 +1,9 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__weapon_balance,-19,0.1483,0.0106,137,Sandbox & Balance
+topic__anti_cheat,-16,0.2268,0.0534,129,PvP
+topic__map_pool,-3,0.2433,-0.0503,109,Content & Activities
+overall__score,1,0.0851,0.0678,1274,Overall
+topic__matchmaking_quality,14,-0.2674,-0.0317,145,PvP
+topic__gunplay_feel,15,-0.2074,0.0479,192,Sandbox & Balance
+topic__performance_optimization,18,0.3096,0.1653,99,Technical
+topic__map_design,26,0.1533,-0.103,270,Content & Activities

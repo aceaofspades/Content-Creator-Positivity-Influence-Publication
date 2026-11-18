@@ -1,0 +1,7 @@
+season_name,year_name,baseline_source,baseline_mean,baseline_median,revival,revival_median,retention
+CH9: Shattered Bloodline (The Spirit),Year 3,prior_year,18671.0,17643.0,3.4126009910549957,3.611347276540271,0.6379502471945382
+CH1: The Last Breath (The Nurse),Year 1,fallback_all_prior,17853.0,18028.0,2.37437448996211,2.3513423563345905,0.4468708927307653
+CH17: Descend Beyond (The Blight),Year 5,prior_year,33189.0,29501.0,2.3012482408184165,2.5888952916850276,0.5883956043956043
+CH27: Tools of Torment (The Skull Merchant),Year 7,prior_year,57091.0,55190.0,0.9801587702668875,1.0139155644138431,0.7055444644708021
+CH11: Demise of the Faithful (The Plague),Year 4,prior_year,26730.0,25858.0,0.9623072199318855,0.9947405058395854,0.9914581181201195
+CH26: Forged in Fog (The Knight),Year 7,prior_year,57091.0,55190.0,0.8970279663838565,0.9279217249501721,0.8077571104986555

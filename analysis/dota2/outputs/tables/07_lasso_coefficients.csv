@@ -1,0 +1,2 @@
+horizon_weeks,feature,coefficient,stability,bivar_corr,sign_matches_bivar,is_stable
+6,reddit__topic__seasonal_pass_system,0.08610122648710541,0.61,0.18144243522196432,True,False

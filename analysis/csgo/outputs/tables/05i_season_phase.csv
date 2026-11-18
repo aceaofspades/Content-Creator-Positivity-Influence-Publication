@@ -1,0 +1,5 @@
+game,target,treatment,max_lag_weeks,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+CS2,submissions,season_phase_residualized,4,0,0.1205,0.1205,0.11882998171846434,3,0.083,0.17915904936014626,546,True,545
+CS2,submissions,season_phase_residualized,12,5,0.1277,0.1277,0.1846435100548446,5,0.1277,0.029250457038391225,546,True,545
+CS2,comments,season_phase_residualized,4,1,0.0678,0.0678,0.6142595978062158,1,0.0678,0.226691042047532,546,True,547
+CS2,comments,season_phase_residualized,12,5,0.0798,0.0798,0.7404021937842779,5,0.0798,0.32541133455210236,546,True,547

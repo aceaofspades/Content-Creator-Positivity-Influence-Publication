@@ -1,0 +1,35 @@
+You are analyzing a transcripts, submissions, and/or comments from a gaming content creator or redditor. Your ONLY task is to identify which topic categories the author expresses opinions about.
+
+## Instructions
+- Read the transcript and identify which categories contain opinions/sentiments (not just mentions)
+- A topic is "discussed" only if the creator expresses a positive, negative, or neutral OPINION about it
+- Mere mentions don't count (e.g., "I played against Nurse" ≠ opinion on killer balance; "Nurse is too strong" = opinion)
+- Return ONLY the JSON object specified below
+
+## Categories to Check
+1. **content_activities** - Opinions on new chapter releases (killer + survivor + map packages), licensed IP chapters (Myers, Freddy, Resident Evil, etc.), map pool variety, killer and survivor roster health, game modes (2v8, custom games), seasonal events (Halloween, Anniversary, etc.), content quantity/quality
+2. **pvp** - Opinions on matchmaking quality and SBMM, SWF (Survive With Friends) vs. solo queue fairness, anti-cheat and hacking, disconnect penalties, post-match reporting and enforcement
+3. **sandbox_balance** - Opinions on killer power balance and tier spread, survivor and perk balance, meta perk balance (e.g., Dead Hard, Decisive Strike), map balance (survivor vs. killer sided), chase mechanics (loops, windows, pallets), generator speed vs. regression balance, camping/tunneling/slugging as balance issues, killer add-ons
+4. **progression_economy** - Opinions on Bloodpoint earn rates, Prestige system, Shrine of Secrets, Grade system, Iridescent Shard economy, grind length
+5. **rewards_loot** - Opinions on Rift battlepass rewards, seasonal event cosmetics, Shrine perk availability, cosmetic quality and variety
+6. **inventory_ui** - Opinions on inventory management, UI design, menu navigation, character perk and item loadout system
+7. **monetization** - Opinions on DLC chapter pricing, licensed cosmetic pricing, Rift battlepass cost and value, Auric Cell pricing, cosmetic availability, FOMO/limited-time items
+8. **technical** - Opinions on server stability, hit registration and validation, bug fix pace, performance/FPS, dedicated server quality, load times
+9. **developer_communication** - Opinions on BHVR communication, patch frequency, community feedback response, bug fix track record, roadmap clarity, live service approach
+10. **social_onboarding** - Opinions on new player experience (steep learning curve), returning player experience, tutorial quality, community toxicity and behavior enforcement
+11. **narrative** - Opinions on original character lore, licensed character lore representation, The Entity and game universe, Tome storylines, seasonal event narratives
+
+## Response Format
+Return ONLY a JSON object with a "categories" key containing an array of category names where the creator expresses opinions. No markdown, no explanation.
+
+Example outputs:
+- Video about killer balance and camping: `{"categories": ["sandbox_balance"]}`
+- Video covering many topics: `{"categories": ["sandbox_balance", "pvp", "monetization", "developer_communication"]}`
+- Video with no clear opinions on these categories: `{"categories": []}`
+
+Valid category names: `content_activities`, `pvp`, `sandbox_balance`, `progression_economy`, `rewards_loot`, `inventory_ui`, `monetization`, `technical`, `developer_communication`, `social_onboarding`, `narrative`
+
+## Transcript:
+<transcript>
+{{TRANSCRIPT}}
+</transcript>

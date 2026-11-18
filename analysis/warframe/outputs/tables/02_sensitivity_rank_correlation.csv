@@ -1,0 +1,9 @@
+spec,baseline_src,window_weeks,n_seasons,spearman_rho,p_value
+year_prior_2wk,year_prior,2,30,0.956,0.0
+pre_launch_2wk,pre_launch,2,35,0.633,0.0
+year_prior_4wk,year_prior,4,30,0.98,0.0
+pre_launch_4wk,pre_launch,4,35,0.633,0.0
+year_prior_6wk,year_prior,6,30,1.0,0.0
+pre_launch_6wk,pre_launch,6,35,0.633,0.0
+year_prior_8wk,year_prior,8,30,0.985,0.0
+pre_launch_8wk,pre_launch,8,35,0.633,0.0

@@ -1,0 +1,67 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__item_balance,-4,-0.0531,-0.0359,481,Sandbox & Balance
+topic__map_changes,-4,-0.0925,0.0151,465,Sandbox & Balance
+topic__turbo_mode,-4,-0.069,0.0159,454,PvP
+topic__anti_cheat_smurfing,-4,-0.0836,0.0459,461,PvP
+topic__bug_fixes,-4,0.0782,-0.0694,414,Technical
+topic__matchmaking_times,-4,0.08,-0.0584,420,Technical
+topic__hero_pool,-4,-0.1246,-0.0476,354,Content & Activities
+topic__gameplay_feel,-3,-0.1605,-0.0543,483,Sandbox & Balance
+topic__returning_player_experience,-3,-0.1095,-0.0175,358,Social & Onboarding
+topic__new_player_experience,-3,-0.1317,0.0273,359,Social & Onboarding
+topic__tutorials_guidance,-3,-0.1604,0.031,353,Social & Onboarding
+topic__hero_loadout_system,-3,-0.1325,-0.0537,238,Inventory & UI
+topic__replayability,-3,0.0815,0.0345,385,Content & Activities
+topic__inventory_management,-3,-0.2044,0.051,251,Inventory & UI
+topic__cosmetic_availability,-3,-0.0942,-0.0286,414,Monetization
+overall__score,-3,-0.0789,0.0666,503,Overall
+topic__captains_mode,-2,0.0348,0.0253,455,PvP
+topic__patch_design_philosophy,-2,-0.0646,-0.0028,424,Developer Communication
+topic__world_lore,-2,0.2249,0.1908,61,Narrative
+topic__ti_prize_pool,-1,-0.1101,-0.0884,420,Monetization
+topic__arcana_pricing,-1,-0.0798,-0.0345,414,Monetization
+topic__seasonal_pass_pricing,-1,-0.1057,0.0144,424,Monetization
+topic__toxicity_behavior_enforcement,-1,-0.095,-0.0363,362,Social & Onboarding
+topic__event_storylines,-1,-0.1615,0.1548,53,Narrative
+topic__ranked_matchmaking,0,0.0682,0.0682,476,PvP
+topic__hero_lore,0,0.2063,0.2063,63,Narrative
+topic__seasonal_pass_rewards,0,-0.0897,-0.0897,123,Rewards & Loot
+topic__dev_updates,0,0.063,0.063,422,Developer Communication
+topic__mmr_rank_progression,0,0.1364,0.1364,177,Progression & Economy
+topic__hero_reworks,0,0.0709,0.0709,459,Sandbox & Balance
+topic__skin_variety,0,0.1153,0.1153,130,Rewards & Loot
+topic__mmr_system,1,-0.0633,0.0027,465,PvP
+topic__content_quantity,1,0.0858,0.058,382,Content & Activities
+topic__custom_games,1,0.0813,0.0656,344,Content & Activities
+topic__content_quality,1,0.1161,0.0946,386,Content & Activities
+topic__ability_interactions,1,-0.0806,-0.0264,481,Sandbox & Balance
+topic__patch_frequency,1,0.1098,0.0379,421,Developer Communication
+topic__game_modes,1,0.0785,0.0526,376,Content & Activities
+topic__live_service_model,1,0.0816,0.0124,424,Developer Communication
+topic__community_feedback_response,1,0.0677,0.0387,422,Developer Communication
+topic__patch_meta,1,-0.0939,0.0701,482,Sandbox & Balance
+topic__communication_transparency,1,0.0463,0.0063,427,Developer Communication
+topic__client_quality,2,0.1076,0.016,425,Technical
+topic__performance_optimization,2,0.0738,0.0576,425,Technical
+topic__fomo_limited_time,2,0.0953,-0.0148,418,Monetization
+topic__cosmetic_rewards,2,-0.0949,0.0779,134,Rewards & Loot
+topic__steam_marketplace_economy,2,0.106,-0.0158,411,Monetization
+topic__drop_system,2,0.1689,-0.037,125,Progression & Economy
+topic__ui_hud_design,2,0.1007,0.0176,264,Inventory & UI
+topic__menu_navigation,2,0.1371,-0.0069,247,Inventory & UI
+topic__event_rewards,2,-0.1436,-0.0094,123,Rewards & Loot
+topic__arcana_immortal,2,-0.1356,0.0365,129,Rewards & Loot
+topic__steam_marketplace,2,0.2023,-0.1114,118,Progression & Economy
+topic__seasonal_pass_system,2,0.1555,0.0147,124,Progression & Economy
+topic__dragons_blood,2,-0.1789,0.0327,49,Narrative
+topic__new_hero_releases,2,-0.0649,0.0562,329,Content & Activities
+topic__team_communication,3,-0.0946,-0.0555,474,PvP
+topic__behavior_score,3,0.0683,-0.0069,467,PvP
+topic__replay_spectator_tools,3,0.059,-0.0354,396,Technical
+topic__server_stability,3,0.1559,0.1121,430,Technical
+topic__party_matchmaking,4,0.0822,-0.077,341,Social & Onboarding
+topic__coaching_system,4,-0.0768,0.0269,321,Social & Onboarding
+topic__hero_balance,4,0.0636,0.0067,482,Sandbox & Balance
+topic__matchmaking_quality,4,0.0467,0.0382,477,PvP
+topic__free_to_play_experience,4,0.1013,-0.0288,429,Monetization
+topic__seasonal_events,4,-0.0868,-0.0635,337,Content & Activities

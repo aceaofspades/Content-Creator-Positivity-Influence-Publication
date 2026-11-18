@@ -1,0 +1,17 @@
+game,granularity,target,planted_lag,mde_rho_80pct,false_positive_rate_rho0,power_at_rho_0.10,power_at_rho_0.20
+Warframe,daily,comments,1,0.188,0.01,0.36,0.86
+Warframe,daily,comments,3,0.197,0.0,0.29,0.82
+Warframe,daily,comments,7,0.207,0.0,0.355,0.785
+Warframe,daily,comments,14,0.196,0.0,0.355,0.825
+Warframe,daily,submissions,1,0.166,0.0,0.38,0.99
+Warframe,daily,submissions,3,0.154,0.015,0.4,0.985
+Warframe,daily,submissions,7,0.16,0.025,0.395,0.995
+Warframe,daily,submissions,14,0.162,0.02,0.39,0.98
+Warframe,weekly,comments,1,,0.0,0.215,0.505
+Warframe,weekly,comments,2,,0.0,0.18,0.425
+Warframe,weekly,comments,3,,0.0,0.145,0.455
+Warframe,weekly,comments,4,,0.0,0.13,0.53
+Warframe,weekly,submissions,1,0.284,0.01,0.13,0.3
+Warframe,weekly,submissions,2,0.285,0.01,0.17,0.3
+Warframe,weekly,submissions,3,0.286,0.005,0.105,0.37
+Warframe,weekly,submissions,4,0.28,0.02,0.15,0.27

@@ -1,0 +1,308 @@
+===SECTION:header===
+You are analyzing either a YouTube video transcript from a gaming content creator or a reddit submission and comments. Your goal is to understand how this creator/author feels about the current state of the game they are discussing.
+
+## Response Rules
+- Only return values from the allowed options listed for each field.
+- If a field's content is not discussed, too vague to assess, or has no clear answer, return `"unclear"` or `"NA"` as specified.
+- Do not infer or assume sentiment that isn't clearly expressed.
+- If a text field needs a value NOT in the provided list, return it as `"OTHER - [your description]"` (e.g., `"OTHER - podcast interview"`).
+- **Sarcasm and intent:** Always grade sentiment based on the creator's *intended meaning*, not the literal words used. If a creator sarcastically says "great job BHVR, love this patch," that is negative sentiment. If you are unsure whether something is sarcastic, note it in `meta.doubts_and_caveats`.
+- **Asymmetric perspective:** Dead by Daylight has two distinct player roles (killer and survivor). Where sentiment clearly applies to one role, grade it from that role's perspective. Where a creator discusses both, weight the overall score toward their primary focus.
+
+## Field Definitions and Allowed Values
+===END===
+
+===SECTION:core_fields===
+### overall_state_of_game.score
+The creator's overall sentiment on the current state of the game.
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+- -2 = Extremely negative (game is terrible, worst it's ever been)
+- -1 = Negative (significant problems, not enjoyable)
+-  0 = Neutral (mixed feelings, no strong opinion either way)
+-  1 = Positive (game is in a good place, enjoying it)
+-  2 = Extremely positive (game is fantastic, best it's ever been)
+
+### overall_state_of_game.summary
+A 1-2 sentence summary of the creator's take on the game's state.
+**Allowed values:** Free text summary, or `"unclear"` if not discernible.
+
+### sentiment_dimensions (all fields)
+Each field represents the creator's sentiment on a specific aspect of the game.
+**Allowed values for ALL sentiment_dimensions fields:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+
+Fields:
+- `is_the_game_fun_right_now` — Are they enjoying the moment-to-moment gameplay?
+- `is_there_enough_content_to_do` — Do they feel there's sufficient content/chapters/modes?
+- `is_the_game_respecting_player_time` — Do they feel the grind/time investment is fair?
+- `are_the_developers_making_good_decisions` — Do they trust BHVR's choices?
+- `is_the_monetization_fair` — How do they feel about in-game purchases/pricing/monetization?
+- `is_the_game_heading_in_a_good_direction` — Do they feel the game's trajectory is positive?
+- `is_the_game_worth_playing` — Would they say the game is worth someone's time?
+- `is_the_killer_experience_good` — How do they feel about the killer side of the game?
+- `is_the_survivor_experience_good` — How do they feel about the survivor side of the game?
+===END===
+
+===SECTION:topic_sentiments_header===
+### topic_sentiments (all fields)
+Grade how the creator feels about each topic. Only grade topics that are clearly discussed.
+**Allowed values for ALL topic_sentiments fields:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+===END===
+
+===SECTION:topic_content_activities===
+#### Content & Activities
+- `chapter_releases` — New chapter quality and reception (killer + survivor + map packages)
+- `licensed_chapters` — Licensed IP chapters specifically (Halloween, Resident Evil, Stranger Things, etc.)
+- `map_pool` — Map pool variety and overall health
+- `map_design` — Individual map design, layout, and visual quality
+- `killer_roster` — Killer roster diversity and health
+- `game_modes` — Available modes (2v8, custom games, special event modes)
+- `seasonal_events` — Seasonal events (Halloween, Anniversary, Lunar New Year, etc.)
+- `content_quantity` — Amount of content available
+- `content_quality` — Quality and polish of content
+- `replayability` — Long-term replayability of the game
+===END===
+
+===SECTION:topic_pvp===
+#### PvP
+- `matchmaking_quality` — SBMM, MMR calibration, and overall match quality
+- `grade_system` — Grade/Pip system and rank visibility
+- `swf_vs_solo_balance` — SWF (Survive With Friends) group queue vs. solo survivor queue fairness
+- `anti_cheat` — Hacking, cheating, and anti-cheat effectiveness
+- `dc_penalty_system` — Disconnect penalty and enforcement
+- `reporting_system` — Post-match reporting and behavior enforcement
+===END===
+
+===SECTION:topic_sandbox_balance===
+#### Sandbox & Balance
+- `killer_balance` — Killer power levels, tier spread, and overall viability
+- `survivor_balance` — Survivor role balance and kit parity
+- `perk_balance` — Meta perk balance (e.g., Dead Hard, Decisive Strike, Borrowed Time, Pop Goes the Weasel)
+- `map_balance` — Map balance between killer and survivor (which maps are sided)
+- `chase_mechanics` — Looping, window and pallet balance, and chase feel
+- `gen_speed_balance` — Generator speed vs. regression perk/power balance
+- `camping_tunneling_slugging` — Camping, tunneling, and slugging as balance and design issues
+- `add_on_balance` — Killer add-on balance and power
+- `hook_sacrifice_system` — Hook states, rescues, and sacrifice mechanic balance
+===END===
+
+===SECTION:topic_progression_economy===
+#### Progression & Economy
+- `bloodpoint_economy` — Bloodpoint earn rates and Bloodweb economy
+- `prestige_system` — Prestige system and teachable perk unlocking
+- `shrine_of_secrets` — Weekly Shrine of Secrets perk availability and value
+- `grade_pip_system` — Grade/Pip climbing and monthly reset
+- `iridescent_shard_economy` — Iridescent Shard earn rates and value
+- `grind_length` — Length of grinds to unlock characters and perks
+- `time_investment_respect` — Respect for player time overall
+===END===
+
+===SECTION:topic_rewards_loot===
+#### Rewards & Loot
+- `rift_rewards` — The Rift battlepass reward track quality and value
+- `event_rewards` — Seasonal event cosmetic rewards
+- `shrine_perk_availability` — Value and rotation quality of Shrine perks
+- `cosmetic_quality` — Quality and creativity of cosmetics (non-licensed and licensed)
+- `cosmetic_variety` — Variety and breadth of cosmetic options
+===END===
+
+===SECTION:topic_inventory_ui===
+#### Inventory & UI
+- `inventory_management` — Managing character inventory, items, and add-ons
+- `ui_design` — UI design overall
+- `menu_navigation` — Menu speed and navigation
+- `loadout_system` — Character perk and item loadout system
+===END===
+
+===SECTION:topic_monetization===
+#### Monetization
+- `chapter_pricing` — DLC chapter pricing (killer + survivor + map packages)
+- `licensed_cosmetic_pricing` — Licensed character cosmetic pricing
+- `rift_pricing` — Rift battlepass cost and value proposition
+- `auric_cell_pricing` — Auric Cell (premium currency) pricing
+- `cosmetic_availability` — Cosmetic earn vs. purchase ratio
+- `fomo_limited_time` — FOMO/limited-time pressure (exclusive event cosmetics, limited Rift skins)
+- `dlc_model` — The overall paid chapter DLC model and accessibility
+===END===
+
+===SECTION:topic_technical===
+#### Technical
+- `server_stability` — Server stability and uptime
+- `hit_validation` — Hit registration and validation (a persistent DbD issue)
+- `bug_fixes` — Bug fix pace and quality (BHVR known for slow fixes)
+- `performance_optimization` — Game performance/FPS
+- `load_times` — Loading times
+- `dedicated_server_quality` — Dedicated server quality since migration from P2P
+===END===
+
+===SECTION:topic_developer_communication===
+#### Developer Communication
+- `communication_transparency` — BHVR communication quality
+- `patch_frequency` — How often patches and balance changes release
+- `community_feedback_response` — Response to community feedback
+- `content_roadmap` — Clarity of content and feature roadmap
+- `dev_updates` — Developer update and blog post quality
+- `bug_fix_responsiveness` — How quickly known bugs are addressed
+- `live_service_model` — Live service approach overall
+===END===
+
+===SECTION:topic_social_onboarding===
+#### Social & Onboarding
+- `new_player_experience` — New player onboarding (notoriously difficult learning curve)
+- `returning_player_experience` — Returning player experience
+- `tutorials_guidance` — Tutorial quality and in-game guidance
+- `toxicity_behavior` — Post-game toxicity, harassment, and behavior enforcement
+===END===
+
+===SECTION:topic_narrative===
+#### Narrative
+- `character_lore` — Original character backstories and lore
+- `licensed_lore_representation` — How licensed characters' source material lore is represented
+- `entity_lore` — The Entity, The Fog, and the overall game universe
+- `tome_storylines` — Tome (lore chapter) narrative quality
+- `event_storylines` — Seasonal event narrative content
+===END===
+
+===SECTION:creator_engagement===
+### creator_engagement.are_they_still_playing
+Is the creator actively playing the game?
+**Allowed values:** `"yes"`, `"no"`, `"barely"`, `"taking_a_break"`, `"returning"`, `"unclear"`, `"OTHER - [description]"`
+
+### creator_engagement.are_they_burned_out
+Does the creator express burnout or fatigue with the game?
+**Allowed values:** `"yes"`, `"no"`, `"partially"`, `"recovering"`, `"unclear"`, `"OTHER - [description]"`
+
+### creator_engagement.would_they_recommend_the_game
+Would the creator recommend the game to others?
+**Allowed values:** `"yes"`, `"no"`, `"conditional"`, `"unclear"`, `"OTHER - [description]"`
+- `"conditional"` = They would recommend it only to certain players or under certain circumstances.
+
+### outlook.optimism_about_future
+How optimistic is the creator about the game's future?
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+- -2 = Expects the game to fail or continue declining
+- -1 = Pessimistic, doesn't see things improving
+-  0 = Uncertain, could go either way
+-  1 = Optimistic, expects improvement
+-  2 = Extremely confident in the game's future
+
+### emotional_tone
+The primary emotional tone of the creator in this video. Select the single best fit.
+**Allowed values:**
+- Positive: `"hopeful"`, `"enthusiastic"`, `"satisfied"`, `"optimistic"`, `"impressed"`
+- Neutral: `"indifferent"`, `"conflicted"`, `"analytical"`, `"measured"`, `"nostalgic"`
+- Negative: `"frustrated"`, `"angry"`, `"resigned"`, `"disappointed"`, `"bitter"`
+- `"unclear"`
+- `"OTHER - [description]"`
+===END===
+
+===SECTION:meta===
+### meta.game_of_focus
+What video game is the primary focus of this video? If the video covers multiple games, list the one with the most discussion time.
+**Allowed values:** `"[name of video game]"`, `"none"`, `"unclear"`
+
+### meta.video_summary
+A 2-3 sentence factual summary of what this video covers. Focus on topics discussed, not the creator's opinions. (e.g., "The creator reviews the latest patch, focusing on killer balance changes and a new licensed chapter. They also discuss the state of matchmaking.")
+**Allowed values:** Free text summary.
+
+### meta.game_relevance
+How much of this video is actually about the game's current state vs. other content (personal stories, other games, tangential topics)?
+**Allowed values:** `"fully_relevant"`, `"mostly_relevant"`, `"partially_relevant"`, `"not_relevant"`
+
+### meta.video_type_primary
+The single best-fit category for this video.
+**Allowed values:** `"rant"`, `"review"`, `"discussion"`, `"news"`, `"guide"`, `"build_guide"`, `"tier_list"`, `"farewell"`, `"return"`, `"reaction"`, `"podcast"`, `"stream_vod"`, `"montage"`, `"comedy"`, `"lore"`, `"OTHER - [description]"`
+
+### meta.video_types_applicable
+All categories that apply to this video. Return as an array.
+**Allowed values:** Same as video_type_primary. Return one or more.
+
+### meta.reasoning
+A brief explanation of how you arrived at the `overall_state_of_game.score` and the key `sentiment_dimensions` scores (if applicable). Focus on the main signals you used from the transcript — what statements, topics, or tone drove your assessment. Do not rehash every field; summarize the 3-5 most important factors.
+**Allowed values:** Free text, 2-4 sentences.
+
+### meta.doubts_and_caveats
+Flag anything that made you uncertain about your grading. Examples include: sarcasm you weren't fully confident about, transcript quality issues (garbled auto-captions, missing words), the creator being intentionally hyperbolic or performing a character, mixed signals where the creator contradicts themselves, or sections where context was missing.
+**Allowed values:** Free text, or `"none"` if you have no concerns.
+
+### meta.transcript_quality
+How usable was the transcript for sentiment analysis?
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`
+- -2 = Completely unusable (transcript is too broken to extract meaningful sentiment; most sentiment fields should be `"unclear"`)
+- -1 = Poor (significant issues — heavy garbling, large missing sections, speaker confusion — that affected grading accuracy)
+-  0 = Acceptable (some minor issues like missing punctuation or occasional garbling, but meaning is clear)
+-  1 = Good (clear, well-formatted, easy to follow)
+-  2 = Excellent (clean, well-punctuated, no issues whatsoever)
+
+### meta.confidence_score
+How confident are you in the accuracy of your overall assessment? Consider the following factors: transcript quality, how clearly the creator expressed their opinions, the amount of sarcasm or hyperbole present, how much of the content was actually about the game's current state, and whether the creator's statements were consistent or contradictory.
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`
+- -2 = No confidence (major issues across multiple factors; assessment is essentially a guess)
+- -1 = Low confidence (notable issues with one or more factors that likely affected accuracy)
+-  0 = Moderate confidence (reasonable assessment but with meaningful uncertainty)
+-  1 = High confidence (clear opinions, good transcript, minimal ambiguity)
+-  2 = Full confidence (unambiguous opinions, clean transcript, straightforward content)
+
+### meta.sarcasm_detected
+Was sarcasm pervasive enough in this content that it could systematically affect sentiment scoring? Only flag this if sarcasm was a dominant communication style throughout, not for occasional sarcastic quips (which are normal in gaming content).
+**Allowed values:** `true`, `false`
+
+### meta.is_sponsored_by_game
+Is this content sponsored or paid for by the game's developer or publisher? Only flag sponsorships/partnerships where the game being discussed is itself the sponsored product. Do NOT flag unrelated sponsorships (e.g., a GFuel ad read, a VPN sponsor, gaming peripheral promotions) — these are irrelevant to sentiment bias.
+**Allowed values:** `true`, `false`, `"unclear"`
+
+## Example JSON Output
+
+Below is an example of the expected JSON output format. Only include topic_sentiments fields that were clearly discussed in the content. Omit fields that were not mentioned or are unclear.
+
+```json
+{
+  "overall_state_of_game": {
+    "score": -1,
+    "summary": "The creator expressed...etc."
+  },
+  "sentiment_dimensions": {
+    "is_the_game_fun_right_now": 0,
+    "is_there_enough_content_to_do": 1,
+    "is_the_game_respecting_player_time": -1,
+    "are_the_developers_making_good_decisions": -1,
+    "is_the_monetization_fair": -2,
+    "is_the_game_heading_in_a_good_direction": -1,
+    "is_the_game_worth_playing": 0,
+    "is_the_killer_experience_good": -1,
+    "is_the_survivor_experience_good": 1
+  },
+  "topic_sentiments": {
+    "killer_balance": -1,
+    "perk_balance": -2,
+    "camping_tunneling_slugging": -1,
+    "matchmaking_quality": -1,
+    "chapter_pricing": -2,
+    "rift_pricing": -1,
+    "bug_fixes": -2,
+    "communication_transparency": -1
+  },
+  "creator_engagement": {
+    "are_they_still_playing": "barely",
+    "are_they_burned_out": "partially",
+    "would_they_recommend_the_game": "conditional"
+  },
+  "outlook": {
+    "optimism_about_future": -1
+  },
+  "emotional_tone": "frustrated",
+  "meta": {
+    "game_of_focus": "Dead by Daylight",
+    "video_summary": "The creator expressed...etc.",
+    "game_relevance": "fully_relevant",
+    "video_type_primary": "rant",
+    "video_types_applicable": ["rant", "discussion"],
+    "reasoning": "The creator expressed...etc.",
+    "doubts_and_caveats": "none",
+    "transcript_quality": 1,
+    "confidence_score": 1,
+    "sarcasm_detected": false,
+    "is_sponsored_by_game": false
+  }
+}
+```
+===END===

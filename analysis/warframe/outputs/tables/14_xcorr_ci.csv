@@ -1,0 +1,9 @@
+label,group,prespec_lag,prespec_r,prespec_ci_lower,prespec_ci_upper,prespec_max_effect_ruled_out_95pct,peak_lag,peak_r,peak_ci_lower,peak_ci_upper,peak_max_effect_ruled_out_95pct,n_obs,block_len
+"05 overall (daily, unweighted, deseasonalised)",Script 05 — primary xcorr,0,0.0742,0.006,0.1402,0.1402,22,0.1225,0.0819,0.1605,0.1605,1934,43
+"05 overall (weekly, unweighted)",Script 05 — primary xcorr,0,0.1968,0.0963,0.2907,0.2907,0,0.1968,0.086,0.2907,0.2907,549,23
+06 authority High (weekly vs submissions),Script 06 — authority tiers,0,0.2137,0.1022,0.3052,0.3052,3,0.238,0.1281,0.3351,0.3351,490,22
+06 authority Mid (weekly vs submissions),Script 06 — authority tiers,0,0.2792,0.1591,0.3744,0.3744,2,0.3278,0.2076,0.4208,0.4208,316,17
+06 authority Low (weekly vs submissions),Script 06 — authority tiers,0,0.1249,-0.2055,0.3664,0.3664,-4,0.2041,0.0421,0.3762,0.3762,89,9
+04 engagement: still_playing (weekly vs player counts),Script 04 — engagement fields,1,-0.007,-0.0283,0.0151,0.0151,3,-0.0134,-0.0413,0.0102,0.0102,567,23
+04 engagement: burned_out (weekly vs player counts),Script 04 — engagement fields,1,0.0329,-0.0529,0.1322,0.1322,-2,-0.0297,-0.1151,0.0626,0.0626,564,23
+04 engagement: recommend_the_game (weekly vs player counts),Script 04 — engagement fields,1,0.08,0.0084,0.1527,0.1527,2,0.0851,0.0261,0.1458,0.1458,489,22

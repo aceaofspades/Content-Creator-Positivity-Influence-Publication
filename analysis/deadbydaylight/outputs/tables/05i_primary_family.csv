@@ -1,0 +1,5 @@
+game,target,granularity,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+Dead by Daylight,submissions,daily,-10,-0.0609,0.0609,0.46774193548387094,6,0.0563,0.2125,2479,True,2479
+Dead by Daylight,submissions,weekly,1,0.0889,0.0889,0.7210743801652892,1,0.0889,0.2830578512396694,483,True,484
+Dead by Daylight,comments,daily,7,0.0457,0.0457,0.7955645161290322,7,0.0457,0.36774193548387096,2479,True,2480
+Dead by Daylight,comments,weekly,2,-0.0816,0.0816,0.6776859504132231,1,-0.0075,0.7520661157024794,483,True,484

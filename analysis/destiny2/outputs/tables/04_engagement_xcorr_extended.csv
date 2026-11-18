@@ -1,0 +1,22 @@
+field,weighting,granularity,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation
+creator__are_they_still_playing,unweighted,daily,0,0.0978,0.0815,0.012,True,consistent with hypothesis
+creator__are_they_burned_out,unweighted,daily,0,0.0815,0.1038,0.173,False,no peak above noise
+creator__would_they_recommend_the_game,unweighted,daily,5,0.1082,0.1019,0.025,True,consistent with hypothesis
+creator__are_they_still_playing,view_weighted,daily,0,0.0855,0.075,0.029,True,consistent with hypothesis
+creator__are_they_burned_out,view_weighted,daily,0,0.0879,0.0911,0.073,False,no peak above noise
+creator__would_they_recommend_the_game,view_weighted,daily,6,0.0969,0.0946,0.035,True,consistent with hypothesis
+creator__are_they_still_playing,unweighted,weekly,0,0.2079,0.1848,0.003,True,consistent with hypothesis
+creator__are_they_still_playing,view_weighted,weekly,0,0.193,0.1687,0.033,True,consistent with hypothesis
+creator__are_they_burned_out,unweighted,weekly,0,0.1525,0.1941,0.173,False,no peak above noise
+creator__are_they_burned_out,view_weighted,weekly,0,0.1775,0.173,0.04,True,consistent with hypothesis
+creator__would_they_recommend_the_game,unweighted,weekly,1,0.2106,0.1779,0.01,True,consistent with hypothesis
+creator__would_they_recommend_the_game,view_weighted,weekly,1,0.1974,0.1716,0.01,True,consistent with hypothesis
+creator__are_they_still_playing,unweighted,daily_diff,-6,0.0329,0.0756,0.868,False,no peak above noise
+creator__are_they_still_playing,view_weighted,daily_diff,5,-0.0235,0.0777,0.982,False,no peak above noise
+creator__are_they_burned_out,unweighted,daily_diff,-6,0.0575,0.0689,0.148,False,no peak above noise
+creator__are_they_burned_out,view_weighted,daily_diff,-28,0.0475,0.0618,0.309,False,no peak above noise
+creator__would_they_recommend_the_game,unweighted,daily_diff,-6,0.0779,0.0626,0.007,True,contrary (players lead)
+creator__would_they_recommend_the_game,view_weighted,daily_diff,-6,0.0604,0.0601,0.046,True,contrary (players lead)
+creator__are_they_still_playing,pct_concerning,daily,0,-0.0978,0.0815,0.012,True,consistent with hypothesis
+creator__are_they_burned_out,pct_concerning,daily,0,-0.0688,0.0752,0.107,False,no peak above noise
+creator__would_they_recommend_the_game,pct_concerning,daily,0,-0.1178,0.0946,0.0,True,consistent with hypothesis

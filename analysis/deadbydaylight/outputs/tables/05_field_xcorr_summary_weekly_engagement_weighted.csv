@@ -1,0 +1,41 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__server_stability,-4,0.2818,0.168,82,Technical
+topic__gen_speed_balance,-4,-0.0991,0.0924,196,Sandbox & Balance
+topic__performance_optimization,-4,0.1188,0.0956,76,Technical
+topic__cosmetic_variety,-4,0.3651,0.102,48,Rewards & Loot
+topic__camping_tunneling_slugging,-3,0.0698,0.0392,319,Sandbox & Balance
+topic__grade_pip_system,-3,-0.2364,-0.0201,36,Progression & Economy
+topic__add_on_balance,-3,0.0931,0.0776,239,Sandbox & Balance
+topic__matchmaking_quality,-3,0.1704,-0.0387,230,PvP
+topic__shrine_perk_availability,-3,-0.5788,0.3569,27,Rewards & Loot
+topic__prestige_system,-2,-0.2611,-0.2459,26,Progression & Economy
+topic__survivor_balance,-2,-0.0956,0.0445,344,Sandbox & Balance
+topic__licensed_chapters,-2,0.1796,-0.0644,91,Content & Activities
+topic__cosmetic_quality,-2,0.1268,0.0631,147,Rewards & Loot
+topic__map_pool,-2,0.5077,0.0062,37,Content & Activities
+topic__swf_vs_solo_balance,-2,0.1733,0.0722,114,PvP
+topic__grind_length,-1,0.2717,0.1521,54,Progression & Economy
+topic__hit_validation,-1,0.1338,-0.0495,178,Technical
+topic__dc_penalty_system,-1,0.146,0.1391,103,PvP
+topic__killer_balance,-1,0.0676,0.0461,422,Sandbox & Balance
+topic__content_quantity,-1,0.1289,0.0633,70,Content & Activities
+topic__community_feedback_response,-1,0.3288,0.1963,72,Developer Communication
+topic__content_quality,0,0.2244,0.2244,131,Content & Activities
+topic__map_design,0,0.2081,0.2081,167,Content & Activities
+topic__map_balance,0,0.1423,0.1423,341,Sandbox & Balance
+topic__seasonal_events,0,0.3623,0.3623,48,Content & Activities
+topic__chapter_releases,0,0.1749,0.1749,121,Content & Activities
+topic__ui_design,0,0.3425,0.3425,29,Inventory & UI
+overall__score,0,0.1193,0.1193,484,Overall
+topic__bug_fixes,0,0.2287,0.2287,233,Technical
+topic__hook_sacrifice_system,1,-0.255,-0.1771,37,Sandbox & Balance
+topic__dedicated_server_quality,1,0.3853,0.0166,29,Technical
+topic__perk_balance,2,0.0808,0.0617,450,Sandbox & Balance
+topic__communication_transparency,2,0.2283,0.0583,91,Developer Communication
+topic__killer_roster,2,0.258,0.0394,145,Content & Activities
+topic__bloodpoint_economy,3,0.2185,0.0627,119,Progression & Economy
+topic__chase_mechanics,3,0.0685,0.05,421,Sandbox & Balance
+topic__new_player_experience,4,0.3574,0.0239,35,Social & Onboarding
+topic__anti_cheat,4,0.2515,0.115,85,PvP
+topic__game_modes,4,0.3635,0.1146,53,Content & Activities
+topic__toxicity_behavior,4,-0.1015,0.0087,208,Social & Onboarding

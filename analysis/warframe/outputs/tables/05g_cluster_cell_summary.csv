@@ -1,0 +1,5 @@
+window,subset,n_days,n_fields,n_sig,mean_n_overlap,mean_lag,mean_abs_r,mean_abs_r0
+narrow,non_patch,2814,17,2,188.765,3.412,0.257,0.088
+narrow,patch,1204,15,2,122.067,3.867,0.331,0.087
+wide,non_patch,2445,17,2,160.059,1.941,0.273,0.102
+wide,patch,1573,16,0,146.125,3.875,0.302,0.072

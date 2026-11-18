@@ -1,0 +1,45 @@
+window,subset,category,mean_lag,median_lag,mean_abs_r,mean_abs_r0,n_fields,n_sig
+narrow,non_patch,Content & Activities,-9.0,-10.5,0.157,0.035,8,1
+narrow,non_patch,Developer Communication,-8.667,-20.5,0.108,0.025,6,0
+narrow,non_patch,Inventory & UI,3.0,11.0,0.341,0.067,4,1
+narrow,non_patch,Monetization,11.714,17.0,0.125,0.042,7,2
+narrow,non_patch,Overall,15.0,15.0,0.078,0.005,1,0
+narrow,non_patch,Progression & Economy,0.5,-6.0,0.389,0.093,4,0
+narrow,non_patch,PvP,-2.125,-0.5,0.074,0.018,8,0
+narrow,non_patch,Rewards & Loot,-1.8,-15.0,0.403,0.091,5,0
+narrow,non_patch,Sandbox & Balance,-1.143,-1.0,0.077,0.019,7,1
+narrow,non_patch,Social & Onboarding,4.167,11.0,0.168,0.053,6,0
+narrow,non_patch,Technical,-6.167,-11.0,0.117,0.048,6,1
+narrow,patch,Content & Activities,4.5,17.5,0.264,0.034,8,1
+narrow,patch,Developer Communication,9.667,16.0,0.177,0.036,6,1
+narrow,patch,Inventory & UI,-1.75,-2.5,0.436,0.078,4,2
+narrow,patch,Monetization,5.429,18.0,0.16,0.041,7,0
+narrow,patch,Overall,22.0,22.0,0.088,0.003,1,0
+narrow,patch,Progression & Economy,-18.0,-18.0,0.4,0.075,1,0
+narrow,patch,PvP,-2.25,-2.5,0.123,0.036,8,1
+narrow,patch,Rewards & Loot,3.0,1.0,0.359,0.164,5,0
+narrow,patch,Sandbox & Balance,-0.571,-11.0,0.102,0.031,7,0
+narrow,patch,Social & Onboarding,0.167,1.0,0.26,0.062,6,1
+narrow,patch,Technical,-17.333,-23.0,0.157,0.018,6,0
+wide,non_patch,Content & Activities,-7.875,-10.0,0.177,0.042,8,1
+wide,non_patch,Developer Communication,7.333,16.5,0.125,0.022,6,0
+wide,non_patch,Inventory & UI,-6.25,-7.5,0.352,0.056,4,1
+wide,non_patch,Monetization,-4.571,-12.0,0.12,0.038,7,1
+wide,non_patch,Overall,-23.0,-23.0,0.075,0.003,1,0
+wide,non_patch,Progression & Economy,-20.0,-20.0,0.299,0.073,1,0
+wide,non_patch,PvP,5.125,5.5,0.075,0.018,8,0
+wide,non_patch,Rewards & Loot,-1.6,-15.0,0.413,0.05,5,0
+wide,non_patch,Sandbox & Balance,10.0,18.0,0.092,0.024,7,1
+wide,non_patch,Social & Onboarding,13.0,16.5,0.178,0.06,6,0
+wide,non_patch,Technical,-3.5,-7.5,0.119,0.055,6,0
+wide,patch,Content & Activities,6.75,15.5,0.225,0.034,8,3
+wide,patch,Developer Communication,-2.167,-2.5,0.134,0.013,6,0
+wide,patch,Inventory & UI,-0.75,-0.5,0.371,0.033,4,1
+wide,patch,Monetization,-6.143,-14.0,0.152,0.037,7,1
+wide,patch,Overall,22.0,22.0,0.057,0.015,1,0
+wide,patch,Progression & Economy,7.25,6.0,0.308,0.051,4,0
+wide,patch,PvP,3.0,-3.5,0.096,0.032,8,0
+wide,patch,Rewards & Loot,10.6,7.0,0.375,0.136,5,0
+wide,patch,Sandbox & Balance,3.857,8.0,0.097,0.026,7,0
+wide,patch,Social & Onboarding,-2.667,-3.5,0.222,0.051,6,1
+wide,patch,Technical,-7.333,-6.5,0.134,0.014,6,0

@@ -1,0 +1,9 @@
+target,lag_weeks,ar_order,n_obs,ar_only_r2,ar_only_bic,ar_plus_r2,ar_plus_bic,delta_r2,delta_bic,creator_coef,creator_tstat,creator_pval,sign,hypothesis_relation
+submissions,1,4,537,0.1603,-53.3,0.16095,-47.43,0.00065,5.87,0.01162,0.642,0.521,positive,consistent with hypothesis
+submissions,2,4,537,0.15203,-25.2,0.15232,-19.1,0.0003,6.1,-0.00802,-0.431,0.6663,negative,contrary (inverse relation)
+submissions,3,4,537,0.14747,-32.59,0.14968,-27.69,0.00221,4.89,0.02163,1.174,0.2409,positive,consistent with hypothesis
+submissions,4,4,537,0.15663,-26.12,0.15669,-19.87,7e-05,6.24,-0.00385,-0.207,0.8359,negative,contrary (inverse relation)
+comments,1,4,543,0.28606,-829.44,0.28762,-824.33,0.00156,5.11,0.00953,1.084,0.279,positive,consistent with hypothesis
+comments,2,4,543,0.28116,-843.4,0.28187,-837.64,0.00071,5.76,-0.00631,-0.728,0.4669,negative,contrary (inverse relation)
+comments,3,4,543,0.26351,-818.58,0.26666,-814.62,0.00316,3.96,-0.01351,-1.52,0.129,negative,contrary (inverse relation)
+comments,4,4,543,0.27282,-826.16,0.27311,-820.08,0.00029,6.08,-0.00409,-0.462,0.6445,negative,contrary (inverse relation)

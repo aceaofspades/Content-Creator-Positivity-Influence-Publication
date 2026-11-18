@@ -1,0 +1,7 @@
+game,sample,granularity,n_submissions,n_dropped,peak_lag,peak_r,noise_threshold,p_value,significant,r_at_0
+Dota 2,all,daily,116832,0,-7,0.0441,0.0702,0.7343,False,0.0047
+Dota 2,all,weekly,116832,0,3,-0.0806,0.1293,0.5524,False,0.0586
+Dota 2,no_panel,daily,116786,46,-7,0.0442,0.0686,0.7373,False,0.0044
+Dota 2,no_panel,weekly,116786,46,3,-0.0805,0.13,0.5415,False,0.0577
+Dota 2,no_youtube,daily,113342,3490,-7,0.0436,0.0677,0.7353,False,0.0042
+Dota 2,no_youtube,weekly,113342,3490,3,-0.0825,0.1298,0.4675,False,0.0576

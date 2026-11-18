@@ -1,0 +1,2 @@
+game,source_used,first_date,last_date,days_present,days_expected,missing_days,longest_gap_days,duplicate_dates,near_zero_days,median_players,days_cut_by_launch,abrupt_jumps
+Dota 2,steam,2011-09-22,2026-02-11,5229,5257,28,17,0,54,668464,0,0

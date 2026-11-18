@@ -1,0 +1,301 @@
+===SECTION:header===
+You are analyzing either a YouTube video transcript from a gaming content creator or a reddit submission and comments. Your goal is to understand how this creator/author feels about the current state of the game they are discussing.
+
+## Response Rules
+- Only return values from the allowed options listed for each field.
+- If a field's content is not discussed, too vague to assess, or has no clear answer, return `"unclear"` or `"NA"` as specified.
+- Do not infer or assume sentiment that isn't clearly expressed.
+- If a text field needs a value NOT in the provided list, return it as `"OTHER - [your description]"` (e.g., `"OTHER - podcast interview"`).
+- **Sarcasm and intent:** Always grade sentiment based on the creator's *intended meaning*, not the literal words used. If a creator sarcastically says "great job Valve, love this update," that is negative sentiment. If you are unsure whether something is sarcastic, note it in `meta.doubts_and_caveats`.
+
+## Field Definitions and Allowed Values
+===END===
+
+===SECTION:core_fields===
+### overall_state_of_game.score
+The creator's overall sentiment on the current state of the game.
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+- -2 = Extremely negative (game is terrible, worst it's ever been)
+- -1 = Negative (significant problems, not enjoyable)
+-  0 = Neutral (mixed feelings, no strong opinion either way)
+-  1 = Positive (game is in a good place, enjoying it)
+-  2 = Extremely positive (game is fantastic, best it's ever been)
+
+### overall_state_of_game.summary
+A 1-2 sentence summary of the creator's take on the game's state.
+**Allowed values:** Free text summary, or `"unclear"` if not discernible.
+
+### sentiment_dimensions (all fields)
+Each field represents the creator's sentiment on a specific aspect of the game.
+**Allowed values for ALL sentiment_dimensions fields:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+
+Fields:
+- `is_the_game_fun_right_now` — Are they enjoying the moment-to-moment gameplay?
+- `is_there_enough_content_to_do` — Do they feel there's sufficient content/modes/maps?
+- `is_the_game_respecting_player_time` — Do they feel the time investment is fair?
+- `are_the_developers_making_good_decisions` — Do they trust Valve's choices?
+- `is_the_monetization_fair` — How do they feel about in-game purchases/pricing/monetization?
+- `is_the_game_heading_in_a_good_direction` — Do they feel the game's trajectory is positive?
+- `is_the_game_worth_playing` — Would they say the game is worth someone's time?
+- `is_competitive_in_a_good_state` — How do they feel about the competitive experience overall?
+- `is_the_casual_experience_good` — How do they feel about the casual/non-competitive experience?
+===END===
+
+===SECTION:topic_sentiments_header===
+### topic_sentiments (all fields)
+Grade how the creator feels about each topic. Only grade topics that are clearly discussed.
+**Allowed values for ALL topic_sentiments fields:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+===END===
+
+===SECTION:topic_content_activities===
+#### Content & Activities
+- `map_pool` — Active duty competitive map pool composition and quality
+- `map_design` — Individual map design, layout, callouts, and balance
+- `game_modes` — Available game modes (Casual, Deathmatch, Wingman, Arms Race, etc.)
+- `operations` — Seasonal operation content, missions, and storylines
+- `premier_system` — Premier competitive mode and CS Rating system
+- `workshop_content` — Community workshop maps, tools, and custom content
+- `content_quantity` — Amount of content available (maps, modes, operations)
+- `content_quality` — Quality and polish of content
+- `replayability` — How replayable the game feels long-term
+===END===
+
+===SECTION:topic_pvp===
+#### PvP
+- `competitive_matchmaking` — Built-in competitive mode queue and experience
+- `premier_matchmaking` — Premier mode specifically (CS Rating/CSR system)
+- `faceit` — Faceit third-party platform and ecosystem
+- `pvp_balance` — Overall balance in the competitive context
+- `matchmaking_quality` — SBMM, match quality, lobbies, and rank integrity
+- `anti_cheat` — Cheater prevalence, VAC, VAC Live, and Overwatch effectiveness
+- `pvp_maps` — Map selection and balance specifically in competitive play
+- `team_communication` — Voice comms, text chat, and team dynamics
+===END===
+
+===SECTION:topic_sandbox_balance===
+#### Sandbox & Balance
+- `weapon_balance` — Weapon tuning and balance (rifles, pistols, AWP, SMGs, shotguns)
+- `economy_balance` — Round economy balance (buy/save/force decisions, pistol round value, eco rounds)
+- `utility_balance` — Grenade mechanics and balance (smokes, flashes, molotovs, HE grenades)
+- `movement_mechanics` — Movement physics, counter-strafing, bunny hopping, jumping mechanics
+- `recoil_system` — Spray patterns and recoil mechanics
+- `hitbox_registration` — Hit registration and hitbox accuracy
+- `gunplay_feel` — Overall feel of shooting and moment-to-moment mechanics
+===END===
+
+===SECTION:topic_progression_economy===
+#### Progression & Economy
+- `rank_system` — Competitive rank (Skill Groups) and Premier CSR rating system
+- `drop_system` — Weekly item drop rates, drop quality, and acquisition system
+- `case_system` — Case opening mechanics, unboxing odds, and experience
+- `steam_marketplace` — Steam Community Market, skin trading, and pricing
+- `cs2_migration` — Sentiment about the CSGO-to-CS2 transition and lost/changed features
+===END===
+
+===SECTION:topic_rewards_loot===
+#### Rewards & Loot
+- `case_drops` — Weekly case drop quality and frequency
+- `operation_rewards` — Rewards earned through seasonal operations
+- `souvenir_packages` — Major tournament souvenir package drops
+- `skin_quality` — Quality, creativity, and desirability of available skins
+- `skin_variety` — Variety and breadth of cosmetic options
+===END===
+
+===SECTION:topic_inventory_ui===
+#### Inventory & UI
+- `inventory_management` — Managing skin and item inventory
+- `ui_design` — UI design overall
+- `menu_navigation` — Menu speed and navigation
+- `loadout_system` — Assigning and managing weapon skin loadouts
+===END===
+
+===SECTION:topic_monetization===
+#### Monetization
+- `case_pricing` — Case and key pricing
+- `skin_market_economy` — Skin economy health, pricing trends, and marketplace dynamics
+- `operation_pricing` — Seasonal operation pass cost and value proposition
+- `prime_status` — Prime Account status, value, and the Prime vs. non-Prime divide
+- `cosmetic_availability` — Cosmetic earn vs. purchase ratio
+- `fomo_limited_time` — FOMO/limited-time pressure (operation deadlines, limited skins, souvenir drops)
+===END===
+
+===SECTION:topic_technical===
+#### Technical
+- `server_stability` — Server stability and uptime
+- `subtick_system` — CS2's subtick server technology (replacing traditional tick rate)
+- `bug_fixes` — Bug fix speed and quality
+- `performance_optimization` — Game performance/FPS
+- `load_times` — Loading times
+- `error_codes` — Disconnects and error codes
+- `matchmaking_times` — Queue and matchmaking times
+===END===
+
+===SECTION:topic_developer_communication===
+#### Developer Communication
+- `communication_transparency` — Valve communication quality (notably limited)
+- `patch_frequency` — How often patches and updates release
+- `community_feedback_response` — Response to community feedback
+- `content_roadmap` — Clarity of content and update roadmap
+- `dev_updates` — Developer update and blog post quality
+- `live_service_model` — Live service approach overall
+===END===
+
+===SECTION:topic_social_onboarding===
+#### Social & Onboarding
+- `new_player_experience` — New player onboarding and learning curve
+- `returning_player_experience` — Returning player experience (including CSGO veterans adjusting to CS2)
+- `community_servers` — Community server ecosystem (surf, KZ, deathmatch, practice servers)
+- `team_finding` — Finding teammates and team communication tools
+- `coaching_system` — In-game coaching and mentorship feature
+- `tutorials_guidance` — In-game tutorials and guidance
+===END===
+
+===SECTION:topic_narrative===
+#### Narrative
+- `operation_lore` — Story and lore within seasonal operations (note: CS2 has minimal narrative content)
+===END===
+
+===SECTION:creator_engagement===
+### creator_engagement.are_they_still_playing
+Is the creator actively playing the game?
+**Allowed values:** `"yes"`, `"no"`, `"barely"`, `"taking_a_break"`, `"returning"`, `"unclear"`, `"OTHER - [description]"`
+
+### creator_engagement.are_they_burned_out
+Does the creator express burnout or fatigue with the game?
+**Allowed values:** `"yes"`, `"no"`, `"partially"`, `"recovering"`, `"unclear"`, `"OTHER - [description]"`
+
+### creator_engagement.would_they_recommend_the_game
+Would the creator recommend the game to others?
+**Allowed values:** `"yes"`, `"no"`, `"conditional"`, `"unclear"`, `"OTHER - [description]"`
+- `"conditional"` = They would recommend it only to certain players or under certain circumstances.
+
+### outlook.optimism_about_future
+How optimistic is the creator about the game's future?
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`, `"unclear"`
+- -2 = Expects the game to fail or continue declining
+- -1 = Pessimistic, doesn't see things improving
+-  0 = Uncertain, could go either way
+-  1 = Optimistic, expects improvement
+-  2 = Extremely confident in the game's future
+
+### emotional_tone
+The primary emotional tone of the creator in this video. Select the single best fit.
+**Allowed values:**
+- Positive: `"hopeful"`, `"enthusiastic"`, `"satisfied"`, `"optimistic"`, `"impressed"`
+- Neutral: `"indifferent"`, `"conflicted"`, `"analytical"`, `"measured"`, `"nostalgic"`
+- Negative: `"frustrated"`, `"angry"`, `"resigned"`, `"disappointed"`, `"bitter"`
+- `"unclear"`
+- `"OTHER - [description]"`
+===END===
+
+===SECTION:meta===
+### meta.game_of_focus
+What video game is the primary focus of this video? If the video covers multiple games, list the one with the most discussion time.
+**Allowed values:** `"[name of video game]"`, `"none"`, `"unclear"`
+
+### meta.video_summary
+A 2-3 sentence factual summary of what this video covers. Focus on topics discussed, not the creator's opinions. (e.g., "The creator reviews the latest patch notes, focusing on weapon balance changes and the updated map pool. They also discuss the state of anti-cheat.")
+**Allowed values:** Free text summary.
+
+### meta.game_relevance
+How much of this video is actually about the game's current state vs. other content (personal stories, other games, tangential topics)?
+**Allowed values:** `"fully_relevant"`, `"mostly_relevant"`, `"partially_relevant"`, `"not_relevant"`
+
+### meta.video_type_primary
+The single best-fit category for this video.
+**Allowed values:** `"rant"`, `"review"`, `"discussion"`, `"news"`, `"guide"`, `"build_guide"`, `"tier_list"`, `"farewell"`, `"return"`, `"reaction"`, `"podcast"`, `"stream_vod"`, `"montage"`, `"comedy"`, `"lore"`, `"OTHER - [description]"`
+
+### meta.video_types_applicable
+All categories that apply to this video. Return as an array.
+**Allowed values:** Same as video_type_primary. Return one or more.
+
+### meta.reasoning
+A brief explanation of how you arrived at the `overall_state_of_game.score` and the key `sentiment_dimensions` scores (if applicable). Focus on the main signals you used from the transcript — what statements, topics, or tone drove your assessment. Do not rehash every field; summarize the 3-5 most important factors.
+**Allowed values:** Free text, 2-4 sentences.
+
+### meta.doubts_and_caveats
+Flag anything that made you uncertain about your grading. Examples include: sarcasm you weren't fully confident about, transcript quality issues (garbled auto-captions, missing words), the creator being intentionally hyperbolic or performing a character, mixed signals where the creator contradicts themselves, or sections where context was missing.
+**Allowed values:** Free text, or `"none"` if you have no concerns.
+
+### meta.transcript_quality
+How usable was the transcript for sentiment analysis?
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`
+- -2 = Completely unusable (transcript is too broken to extract meaningful sentiment; most sentiment fields should be `"unclear"`)
+- -1 = Poor (significant issues — heavy garbling, large missing sections, speaker confusion — that affected grading accuracy)
+-  0 = Acceptable (some minor issues like missing punctuation or occasional garbling, but meaning is clear)
+-  1 = Good (clear, well-formatted, easy to follow)
+-  2 = Excellent (clean, well-punctuated, no issues whatsoever)
+
+### meta.confidence_score
+How confident are you in the accuracy of your overall assessment? Consider the following factors: transcript quality, how clearly the creator expressed their opinions, the amount of sarcasm or hyperbole present, how much of the content was actually about the game's current state, and whether the creator's statements were consistent or contradictory.
+**Allowed values:** `-2`, `-1`, `0`, `1`, `2`
+- -2 = No confidence (major issues across multiple factors; assessment is essentially a guess)
+- -1 = Low confidence (notable issues with one or more factors that likely affected accuracy)
+-  0 = Moderate confidence (reasonable assessment but with meaningful uncertainty)
+-  1 = High confidence (clear opinions, good transcript, minimal ambiguity)
+-  2 = Full confidence (unambiguous opinions, clean transcript, straightforward content)
+
+### meta.sarcasm_detected
+Was sarcasm pervasive enough in this content that it could systematically affect sentiment scoring? Only flag this if sarcasm was a dominant communication style throughout, not for occasional sarcastic quips (which are normal in gaming content).
+**Allowed values:** `true`, `false`
+
+### meta.is_sponsored_by_game
+Is this content sponsored or paid for by the game's developer or publisher? Only flag sponsorships/partnerships where the game being discussed is itself the sponsored product. Do NOT flag unrelated sponsorships (e.g., a GFuel ad read, a VPN sponsor, gaming peripheral promotions) — these are irrelevant to sentiment bias.
+**Allowed values:** `true`, `false`, `"unclear"`
+
+## Example JSON Output
+
+Below is an example of the expected JSON output format. Only include topic_sentiments fields that were clearly discussed in the content. Omit fields that were not mentioned or are unclear.
+
+```json
+{
+  "overall_state_of_game": {
+    "score": -1,
+    "summary": "The creator expressed...etc."
+  },
+  "sentiment_dimensions": {
+    "is_the_game_fun_right_now": 1,
+    "is_there_enough_content_to_do": 0,
+    "is_the_game_respecting_player_time": 1,
+    "are_the_developers_making_good_decisions": -2,
+    "is_the_monetization_fair": -1,
+    "is_the_game_heading_in_a_good_direction": -1,
+    "is_the_game_worth_playing": 0,
+    "is_competitive_in_a_good_state": -1,
+    "is_the_casual_experience_good": 1
+  },
+  "topic_sentiments": {
+    "map_pool": 0,
+    "weapon_balance": 1,
+    "economy_balance": 2,
+    "anti_cheat": -2,
+    "matchmaking_quality": -1,
+    "case_pricing": -1,
+    "server_stability": 0,
+    "communication_transparency": -2
+  },
+  "creator_engagement": {
+    "are_they_still_playing": "yes",
+    "are_they_burned_out": "no",
+    "would_they_recommend_the_game": "conditional"
+  },
+  "outlook": {
+    "optimism_about_future": -1
+  },
+  "emotional_tone": "frustrated",
+  "meta": {
+    "game_of_focus": "CS2",
+    "video_summary": "The creator expressed...etc.",
+    "game_relevance": "fully_relevant",
+    "video_type_primary": "rant",
+    "video_types_applicable": ["rant", "discussion"],
+    "reasoning": "The creator expressed...etc.",
+    "doubts_and_caveats": "none",
+    "transcript_quality": 1,
+    "confidence_score": 1,
+    "sarcasm_detected": false,
+    "is_sponsored_by_game": false
+  }
+}
+```
+===END===

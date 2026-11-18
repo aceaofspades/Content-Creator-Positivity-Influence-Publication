@@ -1,0 +1,5 @@
+game,target,granularity,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+Destiny 2,submissions,daily,-1,0.174,0.174,0.012040133779264214,4,0.1099,0.017391304347826087,2989,True,2990
+Destiny 2,submissions,weekly,0,0.4129,0.4129,0.006896551724137931,1,0.2358,0.027586206896551724,434,True,435
+Destiny 2,comments,daily,-1,0.1393,0.1393,0.012709030100334449,1,0.1347,0.007357859531772575,2989,True,2990
+Destiny 2,comments,weekly,0,0.3312,0.3312,0.011494252873563218,1,0.2521,0.02528735632183908,434,True,435

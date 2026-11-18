@@ -1,0 +1,3 @@
+source,n_authors,n_posts,gini,top_1pct_share,top_5pct_share,top_10pct_share,top_20pct_share
+submissions,67541,127465,0.4011,0.1208,0.2829,0.3908,0.5233
+comments,113611,625478,0.7006,0.2667,0.5134,0.6388,0.7636

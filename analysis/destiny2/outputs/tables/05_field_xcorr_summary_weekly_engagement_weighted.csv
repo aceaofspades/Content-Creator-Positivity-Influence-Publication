@@ -1,0 +1,99 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__in_game_lfg,-4,0.0848,0.0801,363,Social & Onboarding
+topic__guided_games,-4,0.1509,0.1162,355,Social & Onboarding
+topic__social_spaces,-4,0.1743,0.1109,355,Social & Onboarding
+topic__clan_features,-4,0.1956,0.0787,354,Social & Onboarding
+topic__friend_systems,-4,0.1562,0.1464,352,Social & Onboarding
+topic__solo_content,-4,0.1676,0.1348,433,Content & Activities
+topic__pvp_matchmaking,-4,-0.0491,0.0197,435,PvP
+topic__eververse_pricing,-3,0.1386,0.1077,403,Monetization
+topic__anti_cheat,-3,0.1031,0.0768,433,PvP
+topic__weapon_balance,-2,0.1395,0.1388,435,Sandbox & Balance
+topic__iron_banner,-2,0.0666,0.0332,433,PvP
+topic__lore_accessibility,-2,0.1815,0.1509,411,Narrative
+topic__collections_system,-2,0.0793,0.0611,372,Inventory & UI
+topic__menu_navigation,-2,0.0867,0.0402,375,Inventory & UI
+topic__content_quantity,-1,0.2174,0.2137,434,Content & Activities
+topic__open_world_patrol,-1,0.1462,0.1054,433,Content & Activities
+topic__pve_sandbox,-1,0.0969,0.0355,434,Sandbox & Balance
+topic__buildcrafting_depth,-1,0.1684,0.0995,434,Sandbox & Balance
+topic__error_codes,-1,0.099,0.0495,418,Technical
+topic__gunplay_feel,-1,0.1439,0.1209,434,Sandbox & Balance
+topic__matchmaking_times,-1,0.1515,0.0168,420,Technical
+topic__class_balance,-1,0.0943,0.0622,434,Sandbox & Balance
+topic__new_player_experience,-1,0.1078,0.0264,369,Social & Onboarding
+topic__seasonal_storytelling,-1,0.1775,0.1061,409,Narrative
+topic__exotic_balance,-1,0.1403,0.1323,435,Sandbox & Balance
+topic__vault_space,-1,0.0673,0.0268,373,Inventory & UI
+topic__pvp_maps,-1,0.1317,0.1307,431,PvP
+topic__casual_content,0,0.1773,0.1773,434,Content & Activities
+topic__endgame_content,0,0.2767,0.2767,434,Content & Activities
+topic__exotic_missions,0,0.1012,0.1012,433,Content & Activities
+topic__nightfall_content,0,0.161,0.161,435,Content & Activities
+topic__raid_content,0,0.2222,0.2222,435,Content & Activities
+topic__masterwork_system,0,0.175,0.175,434,Progression & Economy
+topic__crafting_system,0,0.0621,0.0621,435,Progression & Economy
+topic__artifact_system,0,0.1613,0.1613,435,Progression & Economy
+topic__server_stability,0,0.1498,0.1498,423,Technical
+topic__load_times,0,0.074,0.074,417,Technical
+topic__seasonal_activity_content,0,0.0813,0.0813,433,Content & Activities
+topic__content_quality,0,0.244,0.244,434,Content & Activities
+topic__ability_balance,0,0.1224,0.1224,434,Sandbox & Balance
+topic__dungeon_content,0,0.1483,0.1483,433,Content & Activities
+topic__infusion_system,0,0.2494,0.2494,434,Progression & Economy
+topic__catch_up_mechanics,0,0.1614,0.1614,434,Progression & Economy
+topic__time_investment_respect,0,0.1209,0.1209,435,Progression & Economy
+topic__power_level_system,0,0.2683,0.2683,435,Progression & Economy
+topic__subclass_design,0,0.0815,0.0815,434,Sandbox & Balance
+topic__super_balance,0,0.157,0.157,433,Sandbox & Balance
+topic__pvp_sandbox,0,0.1048,0.1048,435,Sandbox & Balance
+topic__currency_economy,0,0.2061,0.2061,434,Progression & Economy
+topic__mod_system,0,0.1489,0.1489,435,Progression & Economy
+topic__bug_fixes,0,0.055,0.055,422,Technical
+topic__communication_transparency,0,0.2446,0.2446,434,Developer Communication
+topic__performance_optimization,0,0.1141,0.1141,423,Technical
+topic__dev_updates,0,0.2672,0.2672,432,Developer Communication
+topic__patch_frequency,0,0.216,0.216,430,Developer Communication
+topic__content_roadmap,0,0.3138,0.3138,431,Developer Communication
+topic__loot_variety,0,0.2212,0.2212,435,Rewards & Loot
+topic__loot_quality,0,0.2082,0.2082,435,Rewards & Loot
+topic__cutscene_quality,0,0.165,0.165,396,Narrative
+topic__villain_writing,0,0.1788,0.1788,401,Narrative
+topic__character_development,0,0.184,0.184,411,Narrative
+topic__tutorials_guidance,0,0.133,0.133,362,Social & Onboarding
+overall__score,0,0.3201,0.3201,435,Overall
+topic__story_writing,0,0.1505,0.1505,412,Narrative
+topic__pvp_balance,0,0.108,0.108,435,PvP
+topic__pvp_modes,0,0.1929,0.1929,434,PvP
+topic__postmaster,0,0.0684,0.0684,371,Inventory & UI
+topic__playlist_rewards,0,0.1417,0.1417,433,Rewards & Loot
+topic__triumph_rewards,0,0.1487,0.1487,431,Rewards & Loot
+topic__title_seal_rewards,0,0.1187,0.1187,431,Rewards & Loot
+topic__pinnacle_rewards,0,0.1545,0.1545,433,Rewards & Loot
+topic__cosmetic_rewards,0,0.155,0.155,435,Rewards & Loot
+topic__community_feedback_response,0,0.2257,0.2257,434,Developer Communication
+topic__rng_drop_rates,1,-0.1019,0.0576,435,Progression & Economy
+topic__replayability,1,0.2411,0.2407,434,Content & Activities
+topic__loot_drops,1,-0.0691,0.0462,435,Progression & Economy
+topic__live_service_model,1,0.2517,0.2487,434,Developer Communication
+topic__sandbox_update_frequency,1,0.2745,0.2482,432,Developer Communication
+topic__trials_of_osiris,1,-0.1624,-0.0414,434,PvP
+topic__tick_rate_netcode,1,0.1369,0.0565,420,Technical
+topic__story_campaign_content,2,0.1711,0.1109,433,Content & Activities
+topic__expansion_storytelling,2,0.1641,0.128,403,Narrative
+topic__strike_content,2,0.1804,0.1717,433,Content & Activities
+topic__grind_length,2,0.1017,0.0479,435,Progression & Economy
+topic__fomo_limited_time,2,0.0899,0.0682,392,Monetization
+topic__pvp_rewards,3,0.0786,-0.0624,435,PvP
+topic__returning_player_experience,3,0.1161,0.0936,377,Social & Onboarding
+topic__expansion_pricing,3,0.1406,0.0659,368,Monetization
+topic__inventory_management,3,0.0671,0.0147,376,Inventory & UI
+topic__adept_weapons,3,-0.0896,0.059,431,Rewards & Loot
+topic__silver_economy,3,0.1274,0.0498,381,Monetization
+topic__competitive_playlist,3,0.0855,-0.0112,435,PvP
+topic__cosmetic_availability,3,0.0975,0.0377,387,Monetization
+topic__free_to_play_experience,3,0.1804,0.1215,382,Monetization
+topic__season_pass_value,4,0.132,0.1289,395,Monetization
+topic__dungeon_key_pricing,4,0.1555,0.0999,371,Monetization
+topic__loadout_system,4,0.0684,0.0133,372,Inventory & UI
+topic__ui_design,4,0.1116,0.0839,376,Inventory & UI

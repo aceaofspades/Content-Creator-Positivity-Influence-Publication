@@ -1,0 +1,19 @@
+field,exclude_days,max_lag_weeks,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,n_weeks
+creator__are_they_still_playing,0,12,12,-0.0916,0.1258,0.272,False,no peak above noise,530
+creator__are_they_still_playing,7,12,3,0.1424,0.1744,0.128,False,no peak above noise,448
+creator__are_they_still_playing,14,12,4,0.3428,0.2001,0.001,True,consistent with hypothesis,389
+creator__are_they_still_playing,21,12,6,0.3983,0.2979,0.004,True,consistent with hypothesis,333
+creator__are_they_still_playing,28,12,9,0.4598,0.34,0.001,True,consistent with hypothesis,281
+creator__are_they_still_playing,42,12,12,0.6654,0.4954,0.006,True,consistent with hypothesis,186
+creator__are_they_burned_out,0,12,-11,0.1526,0.205,0.254,False,no peak above noise,536
+creator__are_they_burned_out,7,12,-7,0.1154,0.2434,0.517,False,no peak above noise,454
+creator__are_they_burned_out,14,12,12,-0.106,0.2529,0.687,False,no peak above noise,393
+creator__are_they_burned_out,21,12,6,0.1283,0.274,0.621,False,no peak above noise,337
+creator__are_they_burned_out,28,12,12,-0.1218,0.3715,0.729,False,no peak above noise,283
+creator__are_they_burned_out,42,12,-10,0.4583,0.5236,0.079,False,no peak above noise,186
+creator__would_they_recommend_the_game,0,12,-11,0.1975,0.1839,0.019,True,contrary (players lead),536
+creator__would_they_recommend_the_game,7,12,-7,0.167,0.2182,0.232,False,no peak above noise,454
+creator__would_they_recommend_the_game,14,12,-7,0.1617,0.2234,0.249,False,no peak above noise,393
+creator__would_they_recommend_the_game,21,12,-4,0.1209,0.2585,0.539,False,no peak above noise,337
+creator__would_they_recommend_the_game,28,12,6,0.1821,0.3512,0.453,False,no peak above noise,282
+creator__would_they_recommend_the_game,42,12,-10,0.5233,0.5378,0.067,False,no peak above noise,186

@@ -1,0 +1,9 @@
+target,lag_weeks,ar_order,n_obs,ar_only_r2,ar_only_bic,ar_plus_r2,ar_plus_bic,delta_r2,delta_bic,creator_coef,creator_tstat,creator_pval,sign,hypothesis_relation
+submissions,1,4,543,0.14525,504.64,0.15021,507.78,0.00496,3.14,0.0729,1.77,0.0772,positive,consistent with hypothesis
+submissions,2,4,542,0.14055,509.75,0.15821,504.79,0.01766,-4.96,0.13827,3.354,0.0009,positive,consistent with hypothesis
+submissions,3,4,541,0.13562,498.33,0.16012,489.07,0.0245,-9.26,0.16202,3.95,0.0001,positive,consistent with hypothesis
+submissions,4,4,541,0.13919,502.95,0.14851,503.35,0.00933,0.4,0.10174,2.421,0.0158,positive,consistent with hypothesis
+comments,1,3,544,0.14838,-794.61,0.14902,-788.72,0.00064,5.89,0.00783,0.634,0.5262,positive,consistent with hypothesis
+comments,2,3,543,0.14212,-785.69,0.14324,-780.1,0.00112,5.59,0.01039,0.837,0.4028,positive,consistent with hypothesis
+comments,3,3,543,0.15291,-783.35,0.15408,-777.81,0.00117,5.55,0.01068,0.862,0.3893,positive,consistent with hypothesis
+comments,4,3,542,0.15112,-794.41,0.15116,-788.14,4e-05,6.27,0.00185,0.151,0.8799,positive,consistent with hypothesis

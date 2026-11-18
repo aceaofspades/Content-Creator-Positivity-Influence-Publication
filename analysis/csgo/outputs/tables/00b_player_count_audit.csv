@@ -1,0 +1,2 @@
+game,source_used,first_date,last_date,days_present,days_expected,missing_days,longest_gap_days,duplicate_dates,near_zero_days,median_players,days_cut_by_launch,abrupt_jumps
+CS2,steam,2011-11-30,2026-02-11,5025,5188,163,89,0,146,646260,0,10

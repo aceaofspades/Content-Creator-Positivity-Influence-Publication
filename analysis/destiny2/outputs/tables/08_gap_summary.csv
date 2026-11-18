@@ -1,0 +1,3 @@
+target,n_weeks_total,n_weeks_overlap,mean_gap,sd_gap,min_gap,max_gap,pct_positive,pct_positive_all_weeks,first_week,last_week
+submissions,427,427,1.0734,0.2307,0.3223,1.9521,100.0,100.0,2017-09-11,2025-11-10
+comments,427,427,0.5678,0.2515,-0.0823,1.5356,99.06,99.06,2017-09-11,2025-11-10

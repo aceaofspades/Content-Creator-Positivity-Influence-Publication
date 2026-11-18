@@ -1,0 +1,19 @@
+field,treatment,max_lag_weeks,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,r_at_+1
+creator__are_they_still_playing,detrended,4,3,0.1023,0.1578,0.27,False,no peak above noise,0.0896
+creator__are_they_still_playing,detrended,12,3,0.1023,0.1853,0.511,False,no peak above noise,0.0896
+creator__are_they_still_playing,season_phase,4,0,0.2497,0.2052,0.0,True,consistent with hypothesis,0.2464
+creator__are_they_still_playing,season_phase,12,0,0.2497,0.2185,0.0,True,consistent with hypothesis,0.2464
+creator__are_they_still_playing,detrended+season_phase,4,0,0.1222,0.1623,0.206,False,no peak above noise,0.1218
+creator__are_they_still_playing,detrended+season_phase,12,5,0.1235,0.2005,0.34,False,no peak above noise,0.1218
+creator__are_they_burned_out,detrended,4,0,0.1597,0.1692,0.113,False,no peak above noise,0.1556
+creator__are_they_burned_out,detrended,12,0,0.1597,0.1963,0.222,False,no peak above noise,0.1556
+creator__are_they_burned_out,season_phase,4,0,0.1171,0.1851,0.399,False,no peak above noise,0.0953
+creator__are_they_burned_out,season_phase,12,0,0.1171,0.1962,0.644,False,no peak above noise,0.0953
+creator__are_they_burned_out,detrended+season_phase,4,0,0.1147,0.1684,0.255,False,no peak above noise,0.0948
+creator__are_they_burned_out,detrended+season_phase,12,0,0.1147,0.1757,0.482,False,no peak above noise,0.0948
+creator__would_they_recommend_the_game,detrended,4,1,0.2377,0.1976,0.001,True,consistent with hypothesis,0.2377
+creator__would_they_recommend_the_game,detrended,12,1,0.2377,0.2066,0.001,True,consistent with hypothesis,0.2377
+creator__would_they_recommend_the_game,season_phase,4,4,0.1727,0.1858,0.074,False,no peak above noise,0.145
+creator__would_they_recommend_the_game,season_phase,12,5,0.1763,0.2242,0.106,False,no peak above noise,0.145
+creator__would_they_recommend_the_game,detrended+season_phase,4,4,0.21,0.1634,0.0,True,consistent with hypothesis,0.1598
+creator__would_they_recommend_the_game,detrended+season_phase,12,5,0.2183,0.1804,0.01,True,consistent with hypothesis,0.1598

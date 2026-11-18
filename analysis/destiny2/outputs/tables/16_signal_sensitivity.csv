@@ -1,0 +1,9 @@
+source,trim_pct_authors,n_authors_dropped,pct_posts_dropped,r_vs_full,p_value,n_weeks
+submissions,1.0,1184,13.36,0.9669,0.0,435
+comments,1.0,2296,29.51,0.9941,0.0,435
+submissions,5.0,5918,29.1,0.9275,0.0,435
+comments,5.0,11476,54.26,0.9805,0.0,435
+submissions,10.0,11835,39.53,0.8884,0.0,435
+comments,10.0,22951,66.44,0.9647,0.0,435
+submissions,20.0,23669,52.52,0.8314,0.0,435
+comments,20.0,45901,78.23,0.942,0.0,435

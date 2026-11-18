@@ -1,0 +1,5 @@
+granularity,reddit_scheme,n_topic_fields,median_peak_lag,mean_peak_lag,pct_peak_lag_gt0,pct_peak_lag_ge0,overall_peak_lag,overall_peak_corr
+daily,unweighted,25,1.0,0.96,52.0,52.0,22,0.1224
+daily,engagement_weighted,25,4.0,3.04,52.0,56.0,2,0.1277
+weekly,unweighted,57,0.0,-0.09,40.4,56.1,3,0.2532
+weekly,engagement_weighted,57,0.0,0.23,45.6,61.4,3,0.2559

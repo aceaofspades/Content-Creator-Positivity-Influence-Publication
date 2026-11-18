@@ -1,0 +1,35 @@
+You are analyzing a transcripts, submissions, and/or comments from a gaming content creator or redditor. Your ONLY task is to identify which topic categories the author expresses opinions about.
+
+## Instructions
+- Read the transcript and identify which categories contain opinions/sentiments (not just mentions)
+- A topic is "discussed" only if the creator expresses a positive, negative, or neutral OPINION about it
+- Mere mentions don't count (e.g., "I ran a raid" ≠ opinion on raid_content; "raids feel unrewarding" = opinion)
+- Return ONLY the JSON object specified below
+
+## Categories to Check
+1. **content_activities** - Opinions on raids, dungeons, strikes, nightfalls, seasonal activities, story/campaigns, exotic missions, patrol zones, endgame, solo content, content quantity/quality, replayability
+2. **pvp** - Opinions on Crucible, Trials, Iron Banner, competitive, PvP maps/modes, matchmaking, cheaters/anti-cheat, PvP rewards
+3. **sandbox_balance** - Opinions on weapon balance, nerfs/buffs, abilities, supers, subclasses, exotics, buildcrafting, gunplay feel, the meta
+4. **progression_economy** - Opinions on loot drops, RNG, crafting system, power/light level, artifact, mods, masterworking, currencies, infusion, grind length, time investment
+5. **rewards_loot** - Opinions on loot quality/variety, cosmetic rewards, playlist rewards, pinnacles, adept weapons, titles/seals, triumphs
+6. **inventory_ui** - Opinions on vault space, inventory management, UI design, menus, loadout system, collections, postmaster
+7. **monetization** - Opinions on Eververse pricing, season pass value, expansion pricing, dungeon keys, silver, FOMO, free-to-play experience
+8. **technical** - Opinions on server stability, lag, tick rate/netcode, bugs, performance/FPS, load times, error codes, disconnects
+9. **developer_communication** - Opinions on Bungie communication, TWABs, patch notes, roadmap clarity, community feedback response, sandbox update frequency, live service model
+10. **social_onboarding** - Opinions on new/returning player experience, LFG/fireteam finder, clans, social spaces, guided games, tutorials
+11. **narrative** - Opinions on story writing, characters, lore, cutscenes, seasonal/expansion storytelling, villain writing
+
+## Response Format
+Return ONLY a JSON object with a "categories" key containing an array of category names where the creator expresses opinions. No markdown, no explanation.
+
+Example outputs:
+- Video about PvP and weapon balance: `{"categories": ["pvp", "sandbox_balance"]}`
+- Video covering many topics: `{"categories": ["content_activities", "pvp", "sandbox_balance", "monetization"]}`
+- Video with no clear opinions on these categories: `{"categories": []}`
+
+Valid category names: `content_activities`, `pvp`, `sandbox_balance`, `progression_economy`, `rewards_loot`, `inventory_ui`, `monetization`, `technical`, `developer_communication`, `social_onboarding`, `narrative`
+
+## Transcript:
+<transcript>
+{{TRANSCRIPT}}
+</transcript>

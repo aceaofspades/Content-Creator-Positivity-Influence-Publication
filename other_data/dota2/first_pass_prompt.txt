@@ -1,0 +1,35 @@
+You are analyzing a transcripts, submissions, and/or comments from a gaming content creator or redditor. Your ONLY task is to identify which topic categories the author expresses opinions about.
+
+## Instructions
+- Read the transcript and identify which categories contain opinions/sentiments (not just mentions)
+- A topic is "discussed" only if the creator expresses a positive, negative, or neutral OPINION about it
+- Mere mentions don't count (e.g., "I played Pudge" ≠ opinion on hero balance; "Pudge is broken" = opinion)
+- Return ONLY the JSON object specified below
+
+## Categories to Check
+1. **content_activities** - Opinions on hero pool diversity, new hero releases and reworks, game modes (All Pick, Captains Mode, Turbo, etc.), seasonal events (Diretide, Frostivus), custom games/Arcade, content quantity/quality
+2. **pvp** - Opinions on ranked matchmaking, MMR system and calibration, matchmaking quality and role assignment, anti-cheat and smurfing, behavior score system, team communication
+3. **sandbox_balance** - Opinions on hero balance, item balance, current patch meta, hero reworks, ability interactions, map changes, overall gameplay feel
+4. **progression_economy** - Opinions on MMR and rank progression, seasonal reward pass systems, Steam marketplace and item trading, item drop system
+5. **rewards_loot** - Opinions on cosmetic reward quality, seasonal event rewards, Arcana and Immortal tier items, Battle Pass or seasonal pass reward tracks, skin variety
+6. **inventory_ui** - Opinions on inventory management, UI and HUD design, menu navigation, hero cosmetic and loadout system
+7. **monetization** - Opinions on Battle Pass or seasonal pass pricing and value, Arcana and high-tier cosmetic pricing, cosmetic availability, FOMO/limited-time items, Steam marketplace economy
+8. **technical** - Opinions on server stability, game client quality, bug fixes, performance/FPS, matchmaking queue times, replay and spectator tools
+9. **developer_communication** - Opinions on Valve communication (notably limited), patch notes and design philosophy, update frequency, community feedback response, live service approach
+10. **social_onboarding** - Opinions on new player experience (notoriously complex game), returning player experience, coaching system, party vs. solo matchmaking balance, community toxicity and behavior enforcement
+11. **narrative** - Opinions on hero lore, world and universe storytelling, seasonal event storylines, the Dragon's Blood animated series
+
+## Response Format
+Return ONLY a JSON object with a "categories" key containing an array of category names where the creator expresses opinions. No markdown, no explanation.
+
+Example outputs:
+- Video about hero balance and the current patch: `{"categories": ["sandbox_balance"]}`
+- Video covering many topics: `{"categories": ["sandbox_balance", "pvp", "monetization", "developer_communication"]}`
+- Video with no clear opinions on these categories: `{"categories": []}`
+
+Valid category names: `content_activities`, `pvp`, `sandbox_balance`, `progression_economy`, `rewards_loot`, `inventory_ui`, `monetization`, `technical`, `developer_communication`, `social_onboarding`, `narrative`
+
+## Transcript:
+<transcript>
+{{TRANSCRIPT}}
+</transcript>

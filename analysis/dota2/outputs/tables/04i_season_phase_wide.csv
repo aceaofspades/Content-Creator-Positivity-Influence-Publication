@@ -1,0 +1,19 @@
+field,treatment,max_lag_weeks,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,r_at_+1
+creator__are_they_still_playing,detrended,4,-1,-0.0475,0.1186,0.664,False,no peak above noise,0.0106
+creator__are_they_still_playing,detrended,12,12,-0.0874,0.1266,0.369,False,no peak above noise,0.0106
+creator__are_they_still_playing,season_phase,4,-1,-0.0791,0.1309,0.232,False,no peak above noise,-0.0267
+creator__are_they_still_playing,season_phase,12,12,-0.109,0.1497,0.196,False,no peak above noise,-0.0267
+creator__are_they_still_playing,detrended+season_phase,4,-1,-0.0493,0.1021,0.621,False,no peak above noise,0.001
+creator__are_they_still_playing,detrended+season_phase,12,12,-0.0825,0.1136,0.394,False,no peak above noise,0.001
+creator__are_they_burned_out,detrended,4,-4,0.1194,0.1842,0.328,False,no peak above noise,0.0789
+creator__are_they_burned_out,detrended,12,-11,0.1567,0.1904,0.27,False,no peak above noise,0.0789
+creator__are_they_burned_out,season_phase,4,-4,0.0381,0.2365,0.924,False,no peak above noise,-0.0067
+creator__are_they_burned_out,season_phase,12,-11,0.1052,0.2516,0.561,False,no peak above noise,-0.0067
+creator__are_they_burned_out,detrended+season_phase,4,-4,0.112,0.1774,0.316,False,no peak above noise,0.0735
+creator__are_they_burned_out,detrended+season_phase,12,-11,0.1676,0.1872,0.178,False,no peak above noise,0.0735
+creator__would_they_recommend_the_game,detrended,4,2,0.1358,0.1675,0.184,False,no peak above noise,0.1083
+creator__would_they_recommend_the_game,detrended,12,-11,0.1992,0.1788,0.01,True,contrary (players lead),0.1083
+creator__would_they_recommend_the_game,season_phase,4,-4,0.053,0.2246,0.768,False,no peak above noise,0.0169
+creator__would_they_recommend_the_game,season_phase,12,-11,0.1432,0.2499,0.245,False,no peak above noise,0.0169
+creator__would_they_recommend_the_game,detrended+season_phase,4,-1,0.1275,0.1617,0.196,False,no peak above noise,0.0962
+creator__would_they_recommend_the_game,detrended+season_phase,12,-11,0.2031,0.1855,0.007,True,contrary (players lead),0.0962

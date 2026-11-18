@@ -1,0 +1,15 @@
+target,treatment,exclude_days,peak_lag,peak_corr,noise_threshold,p_value,significant,reading,n_weeks_kept,r_at_-4,r_at_-3,r_at_-2,r_at_-1,r_at_+0,r_at_+1,r_at_+2,r_at_+3,r_at_+4
+submissions,levels,0,1,0.0894,0.1836,0.712,False,no peak above noise,499,-0.0165,-0.0089,0.0033,0.0063,0.0716,0.0894,-0.0089,0.0019,-0.068
+submissions,levels,14,3,0.1589,0.2476,0.451,False,no peak above noise,344,0.0333,0.0594,0.0304,0.0024,0.1275,0.0678,0.0568,0.1589,0.0256
+submissions,levels,28,3,0.2253,0.3734,0.652,False,no peak above noise,194,-0.0546,0.1335,-0.1248,-0.1086,0.0863,0.1009,0.052,0.2253,0.1977
+submissions,detrended,0,1,0.1836,0.1615,0.035,True,creator leads (consistent with hypothesis),499,0.0831,0.0839,0.0967,0.0886,0.166,0.1836,0.0729,0.0825,0.0058
+submissions,detrended,14,3,0.1885,0.2396,0.185,False,no peak above noise,344,0.1567,0.1674,0.121,0.0524,0.187,0.1315,0.1044,0.1885,0.0196
+submissions,detrended,28,3,0.2909,0.3601,0.15,False,no peak above noise,194,0.1359,0.2457,-0.0085,-0.0406,0.1677,0.1522,0.0487,0.2909,0.1708
+submissions,first_diff,0,1,0.0683,0.1564,0.711,False,no peak above noise,499,-0.0121,0.0085,-0.0222,-0.0335,0.036,0.0683,-0.0286,0.0152,-0.039
+comments,levels,0,2,-0.0827,0.2268,0.681,False,no peak above noise,499,0.0269,-0.0621,0.0,-0.0272,-0.0133,-0.0076,-0.0827,-0.008,-0.0618
+comments,levels,14,-4,0.1174,0.303,0.626,False,no peak above noise,344,0.1174,-0.0074,0.0304,-0.0194,0.1024,0.0252,-0.0064,0.0766,-0.0253
+comments,levels,28,2,0.1178,0.3839,0.911,False,no peak above noise,194,0.0472,0.0206,0.0414,-0.0824,-0.0052,0.0715,0.1178,0.0893,0.0394
+comments,detrended,0,-4,0.1731,0.1573,0.021,True,community leads,499,0.1731,0.0709,0.1347,0.1093,0.1324,0.1316,0.0448,0.1218,0.0629
+comments,detrended,14,-4,0.2603,0.2405,0.019,True,community leads,344,0.2603,0.1208,0.1536,0.1057,0.2366,0.1527,0.1204,0.158,0.0142
+comments,detrended,28,-4,0.2948,0.3518,0.192,False,no peak above noise,194,0.2948,0.2114,0.2236,0.0594,0.151,0.1537,0.1161,0.1078,0.0482
+comments,first_diff,0,-3,-0.1211,0.1379,0.179,False,no peak above noise,499,0.1084,-0.1211,0.0436,-0.0092,0.0034,0.0767,-0.1165,0.0972,-0.0592

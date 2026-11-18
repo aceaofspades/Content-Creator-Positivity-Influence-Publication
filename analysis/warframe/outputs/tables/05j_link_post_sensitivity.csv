@@ -1,0 +1,7 @@
+game,sample,granularity,n_submissions,n_dropped,peak_lag,peak_r,noise_threshold,p_value,significant,r_at_0
+Warframe,all,daily,104654,0,22,0.1224,0.1186,0.035,True,0.0742
+Warframe,all,weekly,104654,0,3,0.2532,0.2145,0.001,True,0.1968
+Warframe,no_panel,daily,104595,59,22,0.1226,0.1174,0.025,True,0.0736
+Warframe,no_panel,weekly,104595,59,3,0.2532,0.2041,0.001,True,0.196
+Warframe,no_youtube,daily,102913,1741,22,0.1254,0.1191,0.022,True,0.0746
+Warframe,no_youtube,weekly,102913,1741,3,0.2544,0.2037,0.003,True,0.2023

@@ -1,0 +1,5 @@
+game,target,treatment,max_lag_weeks,peak_lag,peak_r,gate_stat,p_gate,lead_lag,dir_stat,p_directional,n_perm,exact_enumeration,n_joint
+Dead by Daylight,submissions,season_phase_residualized,4,1,0.079,0.079,0.8057851239669421,1,0.079,0.31611570247933884,483,True,484
+Dead by Daylight,submissions,season_phase_residualized,12,6,0.1322,0.1322,0.5165289256198347,6,0.1322,0.21487603305785125,483,True,484
+Dead by Daylight,comments,season_phase_residualized,4,2,-0.0711,0.0711,0.7355371900826446,3,0.0043,0.731404958677686,483,True,484
+Dead by Daylight,comments,season_phase_residualized,12,-8,-0.0897,0.0897,0.7665289256198347,12,0.0216,0.7541322314049587,483,True,484

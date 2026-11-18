@@ -1,0 +1,60 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__dev_updates,-26,-0.0776,-0.0205,980,Developer Communication
+topic__community_feedback_response,-26,-0.0667,0.0103,1069,Developer Communication
+topic__game_modes,-24,0.0775,0.021,536,Content & Activities
+topic__coaching_system,-23,0.1429,-0.0352,304,Social & Onboarding
+topic__skin_variety,-23,0.2019,-0.0363,94,Rewards & Loot
+topic__content_quality,-21,0.098,-0.0016,594,Content & Activities
+topic__arcana_immortal,-19,-0.2196,-0.0503,98,Rewards & Loot
+topic__menu_navigation,-19,-0.204,0.0116,155,Inventory & UI
+topic__event_rewards,-17,-0.224,-0.0389,97,Rewards & Loot
+topic__mmr_rank_progression,-16,0.2427,0.0043,92,Progression & Economy
+topic__content_quantity,-15,-0.0978,-0.0073,575,Content & Activities
+topic__replayability,-15,-0.0837,0.0124,608,Content & Activities
+topic__arcana_pricing,-14,-0.1082,-0.009,820,Monetization
+topic__seasonal_pass_pricing,-14,-0.0774,0.0023,935,Monetization
+topic__steam_marketplace_economy,-14,-0.102,-0.0189,766,Monetization
+topic__ability_interactions,-13,-0.0602,0.0226,2245,Sandbox & Balance
+topic__turbo_mode,-13,-0.0461,0.0406,1341,PvP
+overall__score,-12,0.0403,0.0255,2805,Overall
+topic__seasonal_pass_rewards,-9,-0.2309,-0.125,97,Rewards & Loot
+topic__matchmaking_times,-8,0.0682,0.0113,1028,Technical
+topic__new_hero_releases,-4,0.1215,-0.0539,318,Content & Activities
+topic__replay_spectator_tools,-3,0.1015,-0.0145,719,Technical
+topic__hero_reworks,-1,0.0609,0.0159,1341,Sandbox & Balance
+topic__patch_meta,-1,0.0493,0.0247,2300,Sandbox & Balance
+topic__item_balance,-1,0.0589,0.0217,2025,Sandbox & Balance
+topic__hero_balance,0,0.0471,0.0471,2394,Sandbox & Balance
+topic__server_stability,0,0.0698,0.0698,1250,Technical
+topic__seasonal_events,1,-0.1662,-0.0853,344,Content & Activities
+topic__performance_optimization,1,0.0631,0.0479,1096,Technical
+topic__cosmetic_availability,1,0.0751,-0.0022,812,Monetization
+topic__hero_pool,3,0.0954,-0.0406,416,Content & Activities
+topic__ui_hud_design,4,0.2509,0.0201,187,Inventory & UI
+topic__inventory_management,6,0.2766,0.0024,160,Inventory & UI
+topic__mmr_system,9,0.0514,0.0132,1710,PvP
+topic__map_changes,10,0.0916,-0.0131,1337,Sandbox & Balance
+topic__ranked_matchmaking,10,-0.0466,0.0377,2248,PvP
+topic__ti_prize_pool,10,-0.098,-0.0004,811,Monetization
+topic__returning_player_experience,11,-0.1458,0.0472,497,Social & Onboarding
+topic__gameplay_feel,11,-0.054,0.0144,2522,Sandbox & Balance
+topic__tutorials_guidance,11,-0.0973,-0.0372,477,Social & Onboarding
+topic__new_player_experience,13,0.1144,-0.0088,561,Social & Onboarding
+topic__cosmetic_rewards,14,0.2068,0.0047,104,Rewards & Loot
+topic__party_matchmaking,16,-0.1108,0.0842,410,Social & Onboarding
+topic__team_communication,17,-0.0554,-0.0065,2260,PvP
+topic__hero_loadout_system,17,0.2479,0.0391,147,Inventory & UI
+topic__fomo_limited_time,17,0.0967,0.0311,873,Monetization
+topic__matchmaking_quality,19,0.0407,0.0234,2392,PvP
+topic__communication_transparency,19,0.0622,0.0003,1170,Developer Communication
+topic__custom_games,20,0.1476,0.0286,411,Content & Activities
+topic__captains_mode,20,-0.0593,0.0284,1442,PvP
+topic__client_quality,21,-0.0684,0.0357,1316,Technical
+topic__live_service_model,22,-0.0717,-0.0459,1082,Developer Communication
+topic__behavior_score,22,0.0725,0.0041,2000,PvP
+topic__patch_design_philosophy,22,-0.1049,-0.0446,1053,Developer Communication
+topic__toxicity_behavior_enforcement,23,0.0934,0.0204,630,Social & Onboarding
+topic__anti_cheat_smurfing,26,0.0575,0.0096,1847,PvP
+topic__patch_frequency,26,0.0946,0.0056,910,Developer Communication
+topic__bug_fixes,27,-0.0745,-0.0233,1029,Technical
+topic__free_to_play_experience,28,0.0664,0.0321,1037,Monetization

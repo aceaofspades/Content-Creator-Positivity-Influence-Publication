@@ -1,0 +1,27 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__new_player_experience,-28,-0.25127877099100554,0.09814960201963978,95,Social & Onboarding
+topic__boss_content,-22,-0.18024017382734206,0.062277003904391996,179,Content & Activities
+topic__cosmetic_rewards,-21,-0.16572931184374767,-0.05741957470677296,278,Rewards & Loot
+topic__content_quality,-18,0.2026860244544482,0.19249503520161593,263,Content & Activities
+topic__time_investment_respect,-18,0.18457054189994399,0.12253939297423169,125,Progression & Economy
+topic__weapon_balance,-15,0.12041149232070562,0.05928093726219973,686,Sandbox & Balance
+topic__buildcrafting_depth,-14,0.10653053335091905,0.05612226997771973,687,Sandbox & Balance
+topic__railjack_content,-9,0.23184732992562512,0.1647833138136502,119,Content & Activities
+topic__gunplay_feel,-6,-0.10818738743633702,0.06175347513723016,346,Sandbox & Balance
+topic__new_warframe_releases,-1,0.2331499146507255,0.1948277133851219,150,Content & Activities
+topic__warframe_kit_design,-1,0.11457563141957927,0.0606781624637537,1217,Sandbox & Balance
+topic__new_game_modes,-1,0.1708820157137786,0.05948341961598067,123,Content & Activities
+topic__riven_system,1,0.23170305580913106,-0.017563126737604462,118,Sandbox & Balance
+topic__pve_sandbox,4,0.26430791311889973,0.025514995058464808,314,Sandbox & Balance
+topic__story_campaign_content,7,0.1891766263065962,0.049555470258349166,97,Content & Activities
+topic__mod_system,9,-0.3014392625814329,0.10127958883277655,109,Progression & Economy
+topic__bug_fixes,12,0.17078796657559078,-0.053216352342476826,337,Technical
+topic__endgame_missions,12,0.17135051206291654,0.05032486774693592,231,Content & Activities
+topic__grind_length,12,0.11928740790714823,0.006459715189887294,368,Progression & Economy
+topic__helminth_system,13,-0.17229502235273952,0.06177413188541891,100,Sandbox & Balance
+topic__rng_drop_rates,13,0.22465260987446797,0.040028349836293435,161,Progression & Economy
+topic__warframe_balance,19,0.152619479419745,0.09742035814876258,376,Sandbox & Balance
+topic__open_world_content,20,0.1758481718604282,0.04535704573993417,213,Content & Activities
+overall__score,22,0.12242067173293017,0.07423454178510457,1934,Overall
+topic__trading_system,28,0.32201817986865655,0.1717420917043101,111,Progression & Economy
+topic__currency_economy,28,0.157965468660729,0.07374388485388388,143,Progression & Economy

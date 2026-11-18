@@ -1,0 +1,53 @@
+field,category,peak_lag,peak_corr,corr_at_0,n_overlap
+topic__new_player_experience,Social & Onboarding,-27,0.1903,-0.0027,314
+topic__buildcrafting_depth,Sandbox & Balance,-24,0.1222,0.0451,1581
+topic__duviri_content,Content & Activities,-24,0.1367,0.0869,257
+topic__boss_content,Content & Activities,-23,-0.1237,0.0478,442
+topic__dev_updates,Developer Communication,-22,0.1612,0.0914,539
+topic__live_service_model,Developer Communication,-21,0.2446,0.1143,102
+topic__mastery_rank_system,Progression & Economy,-20,-0.2246,0.0697,202
+topic__nightwave_content,Content & Activities,-17,0.1414,0.1308,447
+topic__void_relic_system,Progression & Economy,-15,0.1826,0.08,302
+topic__new_game_modes,Content & Activities,-15,0.0984,0.0604,591
+topic__helminth_system,Sandbox & Balance,-15,0.1267,-0.0455,319
+topic__weapon_balance,Sandbox & Balance,-14,0.1074,0.0183,1642
+topic__operator_drifter_system,Sandbox & Balance,-14,0.2417,-0.0128,138
+topic__currency_economy,Progression & Economy,-12,0.0882,0.0603,472
+topic__syndicate_system,Progression & Economy,-12,0.1898,0.0655,138
+topic__time_investment_respect,Progression & Economy,-11,0.1792,0.0858,420
+topic__grind_length,Progression & Economy,-11,0.1244,0.0553,704
+topic__ability_balance,Sandbox & Balance,-11,0.2331,0.0492,247
+topic__bug_fixes,Technical,-9,0.0982,0.0062,436
+topic__warframe_kit_design,Sandbox & Balance,-8,0.1027,0.0339,1683
+topic__pve_sandbox,Sandbox & Balance,-8,0.148,0.0699,930
+topic__mission_design,Content & Activities,-8,0.1399,-0.06,262
+topic__community_feedback_response,Developer Communication,-7,0.151,0.1085,237
+topic__rng_drop_rates,Progression & Economy,-6,0.1928,0.0405,355
+topic__market_pricing,Monetization,-4,0.211,0.1991,135
+topic__cosmetic_rewards,Rewards & Loot,-3,-0.0883,-0.001,596
+topic__focus_system,Progression & Economy,-2,0.1977,0.0285,157
+topic__story_writing,Narrative,-1,-0.2086,-0.0424,102
+topic__communication_transparency,Developer Communication,0,0.1963,0.1963,415
+topic__forma_system,Progression & Economy,0,0.296,0.296,196
+topic__content_quality,Content & Activities,0,0.0977,0.0977,792
+topic__gunplay_feel,Sandbox & Balance,1,0.0807,-0.0003,1072
+topic__quest_storytelling,Narrative,2,-0.2186,-0.0071,114
+topic__endgame_content,Content & Activities,4,0.164,0.0966,354
+topic__story_campaign_content,Content & Activities,5,0.1275,0.065,295
+topic__trading_system,Progression & Economy,5,-0.1449,-0.0099,373
+topic__open_world_content,Content & Activities,10,0.108,0.0183,530
+topic__content_quantity,Content & Activities,14,0.1811,0.0282,380
+topic__endgame_missions,Content & Activities,15,0.1299,0.0808,559
+topic__new_warframe_releases,Content & Activities,15,0.1208,0.107,909
+topic__server_stability,Technical,15,0.2363,0.0752,126
+topic__mod_system,Progression & Economy,16,0.1221,0.0908,519
+topic__ui_design,Inventory & UI,16,0.266,0.0986,194
+topic__free_to_play_experience,Monetization,16,0.1922,0.1004,175
+topic__riven_system,Sandbox & Balance,17,-0.1012,0.0158,533
+topic__clan_features,Social & Onboarding,17,0.2398,0.1107,104
+topic__warframe_balance,Sandbox & Balance,17,0.1397,0.1216,931
+topic__prime_incarnon_weapons,Rewards & Loot,18,0.1027,0.0004,533
+topic__railjack_content,Content & Activities,19,0.1385,0.0757,325
+topic__performance_optimization,Technical,22,-0.1825,0.1074,110
+topic__loot_drops,Progression & Economy,27,0.1432,0.0058,353
+topic__crafting_system,Progression & Economy,28,-0.2683,-0.0235,131

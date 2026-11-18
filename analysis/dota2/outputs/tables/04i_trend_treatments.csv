@@ -1,0 +1,10 @@
+field,treatment,peak_lag,peak_corr,noise_threshold,p_value,significant,hypothesis_relation,r_at_-4,r_at_-3,r_at_-2,r_at_-1,r_at_+0,r_at_+1,r_at_+2,r_at_+3,r_at_+4,creator_time_corr,players_time_corr
+creator__are_they_still_playing,levels,-1,-0.0813,0.1387,0.287,False,no peak above noise,-0.0511,-0.0574,-0.0671,-0.0813,-0.0276,-0.02,-0.0322,-0.0519,-0.0353,0.1025,0.0056
+creator__are_they_still_playing,detrended,-1,-0.0475,0.1186,0.664,False,no peak above noise,-0.0181,-0.0251,-0.0347,-0.0475,0.0035,0.0106,0.001,-0.019,-0.0027,0.1025,0.0056
+creator__are_they_still_playing,first_diff,3,-0.1054,0.1677,0.286,False,no peak above noise,-0.0259,-0.0104,0.0784,-0.0495,-0.0314,0.0451,0.004,-0.1054,-0.0003,0.1025,0.0056
+creator__are_they_burned_out,levels,-4,0.0273,0.2503,0.964,False,no peak above noise,0.0273,-0.012,-0.0102,-0.0158,0.0001,-0.0091,0.0078,-0.017,-0.0192,0.2849,0.0056
+creator__are_they_burned_out,detrended,-4,0.1194,0.1842,0.328,False,no peak above noise,0.1194,0.0773,0.0787,0.0788,0.09,0.0789,0.1025,0.0768,0.0746,0.2849,0.0056
+creator__are_they_burned_out,first_diff,-4,0.1538,0.1607,0.055,False,no peak above noise,0.1538,-0.1361,0.0588,-0.0689,0.061,-0.0296,0.0562,-0.043,-0.0134,0.2849,0.0056
+creator__would_they_recommend_the_game,levels,-4,0.0463,0.2419,0.832,False,no peak above noise,0.0463,0.016,0.0261,0.0235,0.035,0.0208,0.0414,0.0306,0.011,0.284,0.0056
+creator__would_they_recommend_the_game,detrended,2,0.1358,0.1675,0.184,False,no peak above noise,0.1329,0.1029,0.1147,0.1181,0.1229,0.1083,0.1358,0.1245,0.1042,0.284,0.0056
+creator__would_they_recommend_the_game,first_diff,4,-0.0917,0.1416,0.411,False,no peak above noise,0.0238,-0.0854,0.0587,-0.0203,0.0094,-0.0002,0.0434,0.0258,-0.0917,0.284,0.0056

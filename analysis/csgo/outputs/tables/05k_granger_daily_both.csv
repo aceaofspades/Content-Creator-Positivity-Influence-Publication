@@ -1,0 +1,15 @@
+game,target,direction,lag,f_stat,p_value,n_obs,coef_sum
+CS2,submissions,creator->community,1,5.848,0.015749907939030427,1175,0.0445
+CS2,submissions,creator->community,2,0.683,0.5057639122458968,353,0.0435
+CS2,submissions,creator->community,3,0.789,0.5030488040821941,103,0.1581
+CS2,submissions,creator->community,4,1.261,0.31646163364528834,30,0.2385
+CS2,submissions,community->creator,1,3.222,0.07342273329802157,399,-0.1354
+CS2,submissions,community->creator,2,1.439,0.2418198502978328,111,0.1203
+CS2,submissions,community->creator,3,0.36,0.7825141057015236,30,0.2685
+CS2,comments,creator->community,1,3.299,0.06952465495442356,1410,0.0128
+CS2,comments,creator->community,2,0.256,0.7740536989042757,431,0.0029
+CS2,comments,creator->community,3,0.242,0.8670684235974924,130,0.0067
+CS2,comments,creator->community,4,0.044,0.9961313823635982,41,-0.0182
+CS2,comments,community->creator,1,5.217,0.02285479607797378,432,-0.4303
+CS2,comments,community->creator,2,1.533,0.21986046265215844,130,-0.4911
+CS2,comments,community->creator,3,0.703,0.5568754684332853,41,-0.1934

@@ -1,0 +1,7 @@
+game,sample,granularity,n_submissions,n_dropped,peak_lag,peak_r,noise_threshold,p_value,significant,r_at_0
+CS2,all,daily,75507,0,1,0.0845,0.096,0.1958,False,0.0639
+CS2,all,weekly,75507,0,0,0.1232,0.1255,0.0619,False,0.1232
+CS2,no_panel,daily,75352,155,1,0.0836,0.0974,0.1758,False,0.0622
+CS2,no_panel,weekly,75352,155,0,0.1249,0.1254,0.0589,False,0.1249
+CS2,no_youtube,daily,68674,6833,1,0.0887,0.0951,0.1169,False,0.0557
+CS2,no_youtube,weekly,68674,6833,0,0.1421,0.1259,0.008,True,0.1421

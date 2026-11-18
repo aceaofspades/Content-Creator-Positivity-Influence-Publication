@@ -1,0 +1,35 @@
+You are analyzing a transcripts, submissions, and/or comments from a gaming content creator or redditor. Your ONLY task is to identify which topic categories the author expresses opinions about.
+
+## Instructions
+- Read the transcript and identify which categories contain opinions/sentiments (not just mentions)
+- A topic is "discussed" only if the creator expresses a positive, negative, or neutral OPINION about it
+- Mere mentions don't count (e.g., "I played Inferno" ≠ opinion on map design; "Inferno feels stale" = opinion)
+- Return ONLY the JSON object specified below
+
+## Categories to Check
+1. **content_activities** - Opinions on map pool composition, individual map design and balance, game modes (Competitive, Premier, Casual, Deathmatch, Wingman, Arms Race), seasonal operations and missions, community/workshop content, content quantity/quality
+2. **pvp** - Opinions on competitive matchmaking, Premier mode and CS Rating, Faceit, anti-cheat and cheater prevalence, matchmaking quality and SBMM, rank integrity, team communication
+3. **sandbox_balance** - Opinions on weapon balance (rifles, pistols, AWP, SMGs), round economy balance, grenade/utility balance (smokes, flashes, molotovs), movement mechanics, recoil system, hit registration, overall gunplay feel
+4. **progression_economy** - Opinions on competitive rank system, Premier CSR rating, weekly item drops, case opening system, Steam marketplace and skin trading
+5. **rewards_loot** - Opinions on case drop quality, operation rewards, souvenir packages from Majors, skin quality and variety
+6. **inventory_ui** - Opinions on inventory management, UI design, menu navigation, weapon skin loadout system
+7. **monetization** - Opinions on case and key pricing, skin market economy, operation pass pricing, Prime Account status, limited-time cosmetics and FOMO
+8. **technical** - Opinions on server stability, subtick system, bug fixes, performance/FPS, hit registration technology, load times, anti-cheat systems
+9. **developer_communication** - Opinions on Valve communication, patch notes, update frequency, community feedback response, CSGO-to-CS2 transition handling, live service approach
+10. **social_onboarding** - Opinions on new/returning player experience, community servers (surf, KZ, DM servers), in-game tutorials, team-finding, coaching system
+11. **narrative** - Opinions on operation storylines and lore (note: CS2 is not a narrative game; this category will rarely apply)
+
+## Response Format
+Return ONLY a JSON object with a "categories" key containing an array of category names where the creator expresses opinions. No markdown, no explanation.
+
+Example outputs:
+- Video about map changes and weapon balance: `{"categories": ["content_activities", "sandbox_balance"]}`
+- Video covering many topics: `{"categories": ["content_activities", "pvp", "sandbox_balance", "monetization"]}`
+- Video with no clear opinions on these categories: `{"categories": []}`
+
+Valid category names: `content_activities`, `pvp`, `sandbox_balance`, `progression_economy`, `rewards_loot`, `inventory_ui`, `monetization`, `technical`, `developer_communication`, `social_onboarding`, `narrative`
+
+## Transcript:
+<transcript>
+{{TRANSCRIPT}}
+</transcript>

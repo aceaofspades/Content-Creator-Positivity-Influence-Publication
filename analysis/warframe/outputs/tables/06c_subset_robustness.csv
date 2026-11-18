@@ -1,0 +1,9 @@
+subset,granularity,n_creators,n_videos,peak_lag,peak_corr,noise_threshold,p_value,significant
+Full set,daily,9,7629,22,0.1224,0.1186,0.034,True
+Full set,weekly,9,7629,3,0.2532,0.2114,0.0,True
+Drop negative,daily,7,4752,22,0.1078,0.1192,0.132,False
+Drop negative,weekly,7,4752,3,0.2003,0.1746,0.007,True
+Drop largest,daily,6,4091,14,0.1531,0.1518,0.042,True
+Drop largest,weekly,6,4091,2,0.3257,0.298,0.007,True
+Drop smallest,daily,6,7062,14,0.1216,0.1187,0.034,True
+Drop smallest,weekly,6,7062,3,0.2501,0.2061,0.0,True

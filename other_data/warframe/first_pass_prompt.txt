@@ -1,0 +1,35 @@
+You are analyzing a transcripts, submissions, and/or comments from a gaming content creator or redditor. Your ONLY task is to identify which topic categories the author expresses opinions about.
+
+## Instructions
+- Read the transcript and identify which categories contain opinions/sentiments (not just mentions)
+- A topic is "discussed" only if the creator expresses a positive, negative, or neutral OPINION about it
+- Mere mentions don't count (e.g., "I ran a Sortie" ≠ opinion on endgame missions; "Sorties feel unrewarding" = opinion)
+- Return ONLY the JSON object specified below
+
+## Categories to Check
+1. **content_activities** - Opinions on raids, general mission design, endgame missions (Sorties, Archon Hunts, Steel Path), Nightwave, main quests/cinematic story content, open world zones, Railjack, Duviri, boss fights, new game modes, new Warframe releases, content quantity/quality, replayability
+2. **pvp** - Opinions on Conclave, Lunaro, Faceoff, PvP maps/modes, matchmaking, cheaters/anti-cheat, PvP rewards
+3. **sandbox_balance** - Opinions on weapon balance, nerfs/buffs, Warframe abilities, Warframe kit design, Operator/Drifter mechanics and amps, Riven mods, Helminth subsume system, mod builds, buildcrafting depth, gunplay feel, the meta
+4. **progression_economy** - Opinions on loot drops, RNG, Foundry crafting, Mastery Rank system, mod system, Forma, void relics/fissures, Syndicate standing, Focus school progression and grinding, player-to-player trading, currencies (Platinum, Credits, Endo, Kuva), grind length, time investment
+5. **rewards_loot** - Opinions on loot quality/variety, cosmetic rewards, mission rotation rewards, Prime/Incarnon/Adversary weapons, Honoria
+6. **inventory_ui** - Opinions on inventory capacity, inventory management, UI design, menus, loadout system, Codex
+7. **monetization** - Opinions on Platinum store pricing, Prime Access pricing and value, FOMO/limited-time content (Prime Vault, Baro Ki'Teer), free-to-play experience, platinum trading economy
+8. **technical** - Opinions on server stability, lag, tick rate/netcode, bugs, performance/FPS, load times, error codes, disconnects
+9. **developer_communication** - Opinions on Digital Extremes communication, Devstreams, dev updates, patch notes, roadmap clarity, community feedback response, balance update frequency, live service model
+10. **social_onboarding** - Opinions on new/returning player experience, in-game recruiting/LFG, Clan and Dojo system, social spaces (Relays and others), tutorials
+11. **narrative** - Opinions on story writing, characters, lore, cutscenes, quest storytelling, villain writing
+
+## Response Format
+Return ONLY a JSON object with a "categories" key containing an array of category names where the creator expresses opinions. No markdown, no explanation.
+
+Example outputs:
+- Video about endgame and weapon balance: `{"categories": ["content_activities", "sandbox_balance"]}`
+- Video covering many topics: `{"categories": ["content_activities", "sandbox_balance", "progression_economy", "monetization"]}`
+- Video with no clear opinions on these categories: `{"categories": []}`
+
+Valid category names: `content_activities`, `pvp`, `sandbox_balance`, `progression_economy`, `rewards_loot`, `inventory_ui`, `monetization`, `technical`, `developer_communication`, `social_onboarding`, `narrative`
+
+## Transcript:
+<transcript>
+{{TRANSCRIPT}}
+</transcript>

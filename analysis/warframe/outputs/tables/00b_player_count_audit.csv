@@ -1,0 +1,2 @@
+game,source_used,first_date,last_date,days_present,days_expected,missing_days,longest_gap_days,duplicate_dates,near_zero_days,median_players,days_cut_by_launch,abrupt_jumps
+Warframe,steam,2013-02-01,2026-02-11,4657,4759,102,30,0,1,53158,0,1

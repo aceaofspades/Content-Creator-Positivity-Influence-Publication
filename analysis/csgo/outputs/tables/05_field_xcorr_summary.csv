@@ -1,0 +1,9 @@
+field,peak_lag,peak_corr,corr_at_0,n_overlap,category
+topic__weapon_balance,-9,-0.1740298406516732,0.057530786073532784,137,Sandbox & Balance
+topic__map_pool,-3,0.25970634289704575,-0.043920727321102596,109,Content & Activities
+overall__score,1,0.08448389763275993,0.0639299754809527,1274,Overall
+topic__anti_cheat,6,0.2561309856372686,0.01188192746594253,129,PvP
+topic__performance_optimization,7,-0.3335657936057669,0.173946398371653,99,Technical
+topic__matchmaking_quality,14,-0.2300097637108355,-0.015526776540963868,145,PvP
+topic__gunplay_feel,15,-0.17991695536865962,0.0391996558652172,192,Sandbox & Balance
+topic__map_design,26,0.17207224656601633,-0.07081277472450703,270,Content & Activities

@@ -1,0 +1,15 @@
+target,treatment,exclude_days,peak_lag,peak_corr,noise_threshold,p_value,significant,reading,n_weeks_kept,r_at_-4,r_at_-3,r_at_-2,r_at_-1,r_at_+0,r_at_+1,r_at_+2,r_at_+3,r_at_+4
+submissions,levels,0,3,-0.0808,0.131,0.535,False,no peak above noise,575,0.0155,-0.0165,0.0158,0.0348,0.0586,-0.0237,0.0133,-0.0808,-0.0247
+submissions,levels,14,3,-0.1931,0.1785,0.031,True,"creator-leading lag, negative r (contrary)",413,0.0188,-0.0184,0.0153,0.0302,0.071,-0.0481,0.0163,-0.1931,-0.0499
+submissions,levels,28,3,-0.2509,0.1959,0.0,True,"creator-leading lag, negative r (contrary)",297,0.0003,-0.0402,0.0043,0.0661,0.063,-0.0073,-0.056,-0.2509,-0.086
+submissions,detrended,0,3,-0.0966,0.1241,0.247,False,no peak above noise,575,-0.0035,-0.0361,-0.0017,0.0167,0.0481,-0.0411,-0.0011,-0.0966,-0.0458
+submissions,detrended,14,3,-0.1983,0.1826,0.024,True,"creator-leading lag, negative r (contrary)",413,0.0015,-0.0356,0.0028,0.0169,0.0622,-0.0585,0.0061,-0.1983,-0.0568
+submissions,detrended,28,3,-0.2396,0.1921,0.0,True,"creator-leading lag, negative r (contrary)",297,-0.0081,-0.0514,-0.0039,0.0578,0.0637,-0.0074,-0.0534,-0.2396,-0.0756
+submissions,first_diff,0,1,-0.0794,0.1361,0.544,False,no peak above noise,575,0.0625,-0.062,0.0551,-0.0271,0.0729,-0.0794,0.0649,-0.0385,-0.0381
+comments,levels,0,3,-0.0992,0.1276,0.263,False,no peak above noise,575,-0.0172,-0.0067,0.033,0.0317,0.0155,-0.026,-0.007,-0.0992,-0.0306
+comments,levels,14,3,-0.1169,0.1707,0.357,False,no peak above noise,413,-0.0746,-0.026,0.0098,-0.0422,0.0046,-0.0511,-0.0107,-0.1169,-0.046
+comments,levels,28,3,-0.1009,0.1831,0.715,False,no peak above noise,297,-0.0924,-0.0379,-0.015,-0.0377,-0.0013,0.0024,-0.0898,-0.1009,-0.0438
+comments,detrended,0,3,-0.0789,0.1263,0.634,False,no peak above noise,575,0.0122,0.0244,0.0643,0.0535,0.0418,-0.0033,0.0222,-0.0789,-0.0093
+comments,detrended,14,3,-0.1024,0.1632,0.549,False,no peak above noise,413,-0.0349,0.0095,0.0431,-0.0177,0.0332,-0.0209,0.0228,-0.1024,-0.0267
+comments,detrended,28,3,-0.0986,0.187,0.761,False,no peak above noise,297,-0.0428,0.0043,0.0331,-0.0082,0.0278,0.0179,-0.0733,-0.0986,-0.0453
+comments,first_diff,0,1,-0.0663,0.1403,0.816,False,no peak above noise,575,0.0337,-0.0421,0.0368,-0.0156,0.0658,-0.0663,0.0443,-0.0628,0.0395

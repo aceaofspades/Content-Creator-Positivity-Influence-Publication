@@ -1,0 +1,136 @@
+horizon_weeks,model,metric,fold,r2
+2,AR,cv_r2,1,0.22344
+2,AR,cv_r2,2,0.33498
+2,AR,cv_r2,3,0.318
+2,AR,cv_r2,4,0.31779
+2,AR,cv_r2,5,0.27209
+2,Releases,cv_r2,1,0.10956
+2,Releases,cv_r2,2,0.20074
+2,Releases,cv_r2,3,0.06469
+2,Releases,cv_r2,4,0.1965
+2,Releases,cv_r2,5,0.22312
+2,AR + Releases,cv_r2,1,0.1694
+2,AR + Releases,cv_r2,2,0.35879
+2,AR + Releases,cv_r2,3,0.29711
+2,AR + Releases,cv_r2,4,0.34687
+2,AR + Releases,cv_r2,5,0.29358
+2,AR + Releases + Eras,cv_r2,1,0.19593
+2,AR + Releases + Eras,cv_r2,2,0.36317
+2,AR + Releases + Eras,cv_r2,3,0.28532
+2,AR + Releases + Eras,cv_r2,4,0.35051
+2,AR + Releases + Eras,cv_r2,5,0.29296
+2,AR [enet],cv_r2,1,0.01098
+2,AR [enet],cv_r2,2,0.13343
+2,AR [enet],cv_r2,3,0.19328
+2,AR [enet],cv_r2,4,0.27866
+2,AR [enet],cv_r2,5,0.44655
+2,Sentiment [enet],cv_r2,1,-1.19061
+2,Sentiment [enet],cv_r2,2,-0.51037
+2,Sentiment [enet],cv_r2,3,-0.03489
+2,Sentiment [enet],cv_r2,4,0.00846
+2,Sentiment [enet],cv_r2,5,-0.01327
+2,AR + Sentiment [enet],cv_r2,1,-1.14123
+2,AR + Sentiment [enet],cv_r2,2,-0.32894
+2,AR + Sentiment [enet],cv_r2,3,-0.04724
+2,AR + Sentiment [enet],cv_r2,4,0.13814
+2,AR + Sentiment [enet],cv_r2,5,0.28045
+2,AR -> Sentiment [residualized],cv_r2,1,-1.07306
+2,AR -> Sentiment [residualized],cv_r2,2,-0.0363
+2,AR -> Sentiment [residualized],cv_r2,3,0.29215
+2,AR -> Sentiment [residualized],cv_r2,4,0.38356
+2,AR -> Sentiment [residualized],cv_r2,5,0.34303
+2,AR -> Sentiment [residualized],resid_r2,1,-0.18739
+2,AR -> Sentiment [residualized],resid_r2,2,0.01466
+2,AR -> Sentiment [residualized],resid_r2,3,0.01572
+2,AR -> Sentiment [residualized],resid_r2,4,0.06518
+2,AR -> Sentiment [residualized],resid_r2,5,-0.24793
+4,AR,cv_r2,1,0.5054
+4,AR,cv_r2,2,0.5314
+4,AR,cv_r2,3,0.53159
+4,AR,cv_r2,4,0.51167
+4,AR,cv_r2,5,0.32831
+4,Releases,cv_r2,1,-0.08519
+4,Releases,cv_r2,2,0.04769
+4,Releases,cv_r2,3,0.02129
+4,Releases,cv_r2,4,0.19384
+4,Releases,cv_r2,5,0.11269
+4,AR + Releases,cv_r2,1,0.24138
+4,AR + Releases,cv_r2,2,0.53695
+4,AR + Releases,cv_r2,3,0.54874
+4,AR + Releases,cv_r2,4,0.55362
+4,AR + Releases,cv_r2,5,0.33786
+4,AR + Releases + Eras,cv_r2,1,0.23636
+4,AR + Releases + Eras,cv_r2,2,0.53618
+4,AR + Releases + Eras,cv_r2,3,0.53914
+4,AR + Releases + Eras,cv_r2,4,0.55719
+4,AR + Releases + Eras,cv_r2,5,0.33553
+4,AR [enet],cv_r2,1,0.59549
+4,AR [enet],cv_r2,2,0.28653
+4,AR [enet],cv_r2,3,0.24897
+4,AR [enet],cv_r2,4,0.4408
+4,AR [enet],cv_r2,5,0.05257
+4,Sentiment [enet],cv_r2,1,0.13003
+4,Sentiment [enet],cv_r2,2,0.1434
+4,Sentiment [enet],cv_r2,3,-0.04513
+4,Sentiment [enet],cv_r2,4,-0.12134
+4,Sentiment [enet],cv_r2,5,0.01616
+4,AR + Sentiment [enet],cv_r2,1,0.17578
+4,AR + Sentiment [enet],cv_r2,2,0.22853
+4,AR + Sentiment [enet],cv_r2,3,0.04638
+4,AR + Sentiment [enet],cv_r2,4,0.10794
+4,AR + Sentiment [enet],cv_r2,5,0.10633
+4,AR -> Sentiment [residualized],cv_r2,1,0.62369
+4,AR -> Sentiment [residualized],cv_r2,2,0.29102
+4,AR -> Sentiment [residualized],cv_r2,3,0.26706
+4,AR -> Sentiment [residualized],cv_r2,4,0.44648
+4,AR -> Sentiment [residualized],cv_r2,5,-0.01296
+4,AR -> Sentiment [residualized],resid_r2,1,0.0283
+4,AR -> Sentiment [residualized],resid_r2,2,0.01412
+4,AR -> Sentiment [residualized],resid_r2,3,0.01674
+4,AR -> Sentiment [residualized],resid_r2,4,-0.03433
+4,AR -> Sentiment [residualized],resid_r2,5,-0.15615
+6,AR,cv_r2,1,0.44791
+6,AR,cv_r2,2,0.55792
+6,AR,cv_r2,3,0.52828
+6,AR,cv_r2,4,0.51662
+6,AR,cv_r2,5,0.34577
+6,Releases,cv_r2,1,-0.06783
+6,Releases,cv_r2,2,0.02675
+6,Releases,cv_r2,3,-0.04664
+6,Releases,cv_r2,4,0.16101
+6,Releases,cv_r2,5,0.11174
+6,AR + Releases,cv_r2,1,0.15702
+6,AR + Releases,cv_r2,2,0.54982
+6,AR + Releases,cv_r2,3,0.50428
+6,AR + Releases,cv_r2,4,0.56319
+6,AR + Releases,cv_r2,5,0.41821
+6,AR + Releases + Eras,cv_r2,1,0.20794
+6,AR + Releases + Eras,cv_r2,2,0.45927
+6,AR + Releases + Eras,cv_r2,3,0.44456
+6,AR + Releases + Eras,cv_r2,4,0.56654
+6,AR + Releases + Eras,cv_r2,5,0.41881
+6,AR [enet],cv_r2,1,0.53816
+6,AR [enet],cv_r2,2,0.42906
+6,AR [enet],cv_r2,3,0.25955
+6,AR [enet],cv_r2,4,0.06075
+6,AR [enet],cv_r2,5,0.2194
+6,Sentiment [enet],cv_r2,1,0.11713
+6,Sentiment [enet],cv_r2,2,-0.06747
+6,Sentiment [enet],cv_r2,3,0.10805
+6,Sentiment [enet],cv_r2,4,-0.06958
+6,Sentiment [enet],cv_r2,5,-0.10975
+6,AR + Sentiment [enet],cv_r2,1,0.47899
+6,AR + Sentiment [enet],cv_r2,2,0.10231
+6,AR + Sentiment [enet],cv_r2,3,0.3686
+6,AR + Sentiment [enet],cv_r2,4,-0.43676
+6,AR + Sentiment [enet],cv_r2,5,0.17477
+6,AR -> Sentiment [residualized],cv_r2,1,0.58448
+6,AR -> Sentiment [residualized],cv_r2,2,0.24504
+6,AR -> Sentiment [residualized],cv_r2,3,0.39413
+6,AR -> Sentiment [residualized],cv_r2,4,0.03174
+6,AR -> Sentiment [residualized],cv_r2,5,0.20705
+6,AR -> Sentiment [residualized],resid_r2,1,0.16177
+6,AR -> Sentiment [residualized],resid_r2,2,-0.42595
+6,AR -> Sentiment [residualized],resid_r2,3,0.19461
+6,AR -> Sentiment [residualized],resid_r2,4,-0.05921
+6,AR -> Sentiment [residualized],resid_r2,5,-0.17602
